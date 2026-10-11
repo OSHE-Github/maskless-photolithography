@@ -2942,7 +2942,7 @@
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "U"
-			(at 30.48 10.16 0)
+			(at 30.48 11.43 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2952,7 +2952,7 @@
 			)
 		)
 		(property "Value" "DLPA2005ERSLR"
-			(at 30.48 7.62 0)
+			(at 30.48 8.89 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2962,7 +2962,7 @@
 			)
 		)
 		(property "Footprint" "RSL48_4P4X4P4_TEX"
-			(at 30.988 11.938 0)
+			(at 30.226 15.494 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -3019,6 +3019,17 @@
 			)
 		)
 		(symbol "DLPA2005ERSLR_1_1"
+			(rectangle
+				(start 7.62 7.62)
+				(end 53.34 -86.36)
+				(stroke
+					(width 0.254)
+					(type solid)
+				)
+				(fill
+					(type background)
+				)
+			)
 			(polyline
 				(pts
 					(xy 7.62 5.08) (xy 7.62 -86.36)
@@ -3031,32 +3042,9 @@
 					(type outline)
 				)
 			)
-			(rectangle
-				(start 7.62 5.08)
-				(end 53.34 -86.36)
-				(stroke
-					(width 0.254)
-					(type solid)
-				)
-				(fill
-					(type background)
-				)
-			)
 			(polyline
 				(pts
 					(xy 7.62 -86.36) (xy 53.34 -86.36)
-				)
-				(stroke
-					(width 0.127)
-					(type default)
-				)
-				(fill
-					(type outline)
-				)
-			)
-			(polyline
-				(pts
-					(xy 53.34 5.08) (xy 7.62 5.08)
 				)
 				(stroke
 					(width 0.127)
@@ -3259,7 +3247,7 @@
 				)
 			)
 			(pin input line
-				(at 0 -53.34 0)
+				(at 60.96 -71.12 180)
 				(length 7.62)
 				(name "SWN"
 					(effects
@@ -3295,7 +3283,7 @@
 				)
 			)
 			(pin output line
-				(at 60.96 -78.74 180)
+				(at 60.96 -74.93 180)
 				(length 7.62)
 				(name "SWP"
 					(effects
@@ -3313,7 +3301,7 @@
 				)
 			)
 			(pin output line
-				(at 60.96 -8.89 180)
+				(at 60.96 -77.47 180)
 				(length 7.62)
 				(name "CNTR_VRST"
 					(effects
@@ -3331,7 +3319,7 @@
 				)
 			)
 			(pin output line
-				(at 60.96 -85.09 180)
+				(at 60.96 5.08 180)
 				(length 7.62)
 				(name "VBIAS"
 					(effects
@@ -3368,7 +3356,7 @@
 				)
 			)
 			(pin output line
-				(at 60.96 -69.85 180)
+				(at 60.96 2.54 180)
 				(length 7.62)
 				(name "VOFS"
 					(effects
@@ -3440,7 +3428,7 @@
 				)
 			)
 			(pin output line
-				(at 60.96 -25.4 180)
+				(at 0 -15.24 0)
 				(length 7.62)
 				(name "LS_OUT"
 					(effects
@@ -3494,7 +3482,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 60.96 -74.93 180)
+				(at 0 -57.15 0)
 				(length 7.62)
 				(name "SWC"
 					(effects
@@ -3512,7 +3500,7 @@
 				)
 			)
 			(pin input line
-				(at 0 -60.96 0)
+				(at 0 -54.61 0)
 				(length 7.62)
 				(name "VINC"
 					(effects
@@ -3584,7 +3572,7 @@
 				)
 			)
 			(pin input line
-				(at 0 -58.42 0)
+				(at 0 -59.69 0)
 				(length 7.62)
 				(name "VCORE"
 					(effects
