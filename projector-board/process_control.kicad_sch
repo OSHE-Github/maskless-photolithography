@@ -4,6 +4,13 @@
 	(generator_version "10.0")
 	(uuid "f4069ee8-994e-486e-9e78-5d56ede6bb5a")
 	(paper "USLedger")
+	(title_block
+		(title "LITHO_PROJECTOR")
+		(date "2026-10-11")
+		(rev "v1")
+		(company "MICHIGAN TECH OPEN SOURCE HARDWARE ENTERPRISE")
+		(comment 1 "Author: Andrew Kroll <ajkroll@mtu.edu>")
+	)
 	(lib_symbols
 		(symbol "litho:DLPC1438"
 			(exclude_from_sim no)
@@ -4043,6 +4050,17 @@
 				(justify left top)
 			)
 		)
+		(property "Digikey" "ORDER FROM TI"
+			(at 218.44 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "N10"
 			(uuid "64beaa4b-22e7-49a5-8983-a04d986b9e3b")
 		)
@@ -4736,6 +4754,17 @@
 				(justify left top)
 			)
 		)
+		(property "Digikey" "ORDER FROM TI"
+			(at 127 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "N10"
 			(uuid "64beaa4b-22e7-49a5-8983-a04d986b9e41")
 		)
@@ -5425,6 +5454,17 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(property "Digikey" "ORDER FROM TI"
+			(at 125.73 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "N10"
@@ -6118,6 +6158,17 @@
 				(justify left top)
 			)
 		)
+		(property "Digikey" "ORDER FROM TI"
+			(at 247.65 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "N10"
 			(uuid "64beaa4b-22e7-49a5-8983-a04d986b9e3c")
 		)
@@ -6809,6 +6860,17 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(property "Digikey" "ORDER FROM TI"
+			(at 114.3 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "N10"
