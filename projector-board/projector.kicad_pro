@@ -658,13 +658,18 @@
       {
         "filename": "projector.kicad_sch",
         "name": "projector",
-        "uuid": "00000000-0000-0000-0000-000000000000"
+        "uuid": "0c7b44f4-2a5d-4ccb-91ae-fa3b66550b5b"
       }
     ],
-    "used_designators": "",
+    "used_designators": "U1",
     "variants": []
   },
-  "sheets": [],
+  "sheets": [
+    [
+      "0c7b44f4-2a5d-4ccb-91ae-fa3b66550b5b",
+      "projector"
+    ]
+  ],
   "text_variables": {},
   "tuning_profiles": {
     "meta": {
