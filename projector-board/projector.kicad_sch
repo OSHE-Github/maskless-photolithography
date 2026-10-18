@@ -10925,7 +10925,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 241.6048 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -10948,6 +10948,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 242.57 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey" "4713-GMC10X7R104K50NTCT-ND"
 			(at 242.57 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -13478,7 +13489,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 143.51 82.8548 0)
 			(hide yes)
 			(show_name no)
@@ -13502,6 +13513,17 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 139.7 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey" "4713-GMC10X7R104K50NTCT-ND"
+			(at 139.7 83.82 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
