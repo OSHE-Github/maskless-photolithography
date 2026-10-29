@@ -3103,7 +3103,7 @@
 				)
 			)
 			(pin input line
-				(at 0 -45.72 0)
+				(at 0 -48.26 0)
 				(length 7.62)
 				(name "SPI_DIN"
 					(effects
@@ -3211,7 +3211,7 @@
 				)
 			)
 			(pin output line
-				(at 0 -48.26 0)
+				(at 0 -45.72 0)
 				(length 7.62)
 				(name "SPI_DOUT"
 					(effects

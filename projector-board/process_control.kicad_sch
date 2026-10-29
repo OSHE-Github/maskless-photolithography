@@ -3973,7 +3973,7 @@
 	)
 	(symbol
 		(lib_id "litho:DLPC1438")
-		(at 218.44 72.39 0)
+		(at 218.44 85.09 0)
 		(unit 2)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3984,7 +3984,7 @@
 		(fields_autoplaced yes)
 		(uuid "8eccce1d-5f5d-416e-adc4-892bd4b19540")
 		(property "Reference" "U2"
-			(at 218.44 111.76 0)
+			(at 218.44 124.46 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3994,7 +3994,7 @@
 			)
 		)
 		(property "Value" "DLPC1438"
-			(at 218.44 114.3 0)
+			(at 218.44 127 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4004,7 +4004,7 @@
 			)
 		)
 		(property "Footprint" "litho:NFBGA201"
-			(at 200.66 171.45 0)
+			(at 200.66 184.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4016,7 +4016,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/product/DLPC1438"
-			(at 200.66 174.955 0)
+			(at 200.66 187.655 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4028,7 +4028,7 @@
 			)
 		)
 		(property "Description" "Display Drivers & Controllers DLP controller for DLP300S and DLP301S digital micromirror devices (DMDs)"
-			(at 210.82 164.795 0)
+			(at 210.82 177.495 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4039,7 +4039,7 @@
 			)
 		)
 		(property "Height" "1"
-			(at 96.52 455.88 0)
+			(at 96.52 468.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4051,7 +4051,7 @@
 			)
 		)
 		(property "Digikey" "ORDER FROM TI"
-			(at 218.44 72.39 0)
+			(at 218.44 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4675,7 +4675,7 @@
 	)
 	(symbol
 		(lib_id "litho:DLPC1438")
-		(at 127 86.36 0)
+		(at 124.46 71.12 0)
 		(unit 3)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4686,7 +4686,7 @@
 		(fields_autoplaced yes)
 		(uuid "c16f7c55-3fd4-4882-90ea-e0c59cfd68cc")
 		(property "Reference" "U2"
-			(at 140.97 86.9949 0)
+			(at 138.43 71.7549 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4697,7 +4697,7 @@
 			)
 		)
 		(property "Value" "DLPC1438"
-			(at 140.97 89.5349 0)
+			(at 138.43 74.2949 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4708,7 +4708,7 @@
 			)
 		)
 		(property "Footprint" "litho:NFBGA201"
-			(at 109.22 185.42 0)
+			(at 106.68 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4720,7 +4720,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/product/DLPC1438"
-			(at 109.22 188.925 0)
+			(at 106.68 173.685 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4732,7 +4732,7 @@
 			)
 		)
 		(property "Description" "Display Drivers & Controllers DLP controller for DLP300S and DLP301S digital micromirror devices (DMDs)"
-			(at 119.38 178.765 0)
+			(at 116.84 163.525 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4743,7 +4743,7 @@
 			)
 		)
 		(property "Height" "1"
-			(at 5.08 469.85 0)
+			(at 2.54 454.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4755,7 +4755,7 @@
 			)
 		)
 		(property "Digikey" "ORDER FROM TI"
-			(at 127 86.36 0)
+			(at 124.46 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
