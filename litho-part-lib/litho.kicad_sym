@@ -3121,7 +3121,7 @@
 				)
 			)
 			(pin output line
-				(at 60.96 -27.94 180)
+				(at 0 1.27 0)
 				(length 7.62)
 				(name "RESETZ"
 					(effects
@@ -3157,7 +3157,7 @@
 				)
 			)
 			(pin output line
-				(at 0 0 0)
+				(at 0 3.81 0)
 				(length 7.62)
 				(name "INTZ"
 					(effects
@@ -3536,7 +3536,7 @@
 				)
 			)
 			(pin input line
-				(at 0 -3.81 0)
+				(at 0 -2.54 0)
 				(length 7.62)
 				(name "PROJ_ON"
 					(effects
