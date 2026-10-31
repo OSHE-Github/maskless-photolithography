@@ -463,7 +463,7 @@
       "missing_input_pin": "warning",
       "missing_power_pin": "error",
       "missing_unit": "warning",
-      "multiple_net_names": "warning",
+      "multiple_net_names": "ignore",
       "net_not_bus_member": "warning",
       "no_connect_connected": "warning",
       "no_connect_dangling": "warning",
@@ -748,7 +748,7 @@
         "uuid": "f5e48288-fd85-4ef3-b40a-fcaa3a6c0ece"
       }
     ],
-    "used_designators": "#PWR1-58,C1-41,D1-6,J2-6,L1-3,R1-26,TP1-13,U1-6",
+    "used_designators": "#FLG1-5,#PWR1-58,C1-41,D1-6,J2-6,L1-3,R1-26,TP1-13,U1-6",
     "variants": []
   },
   "sheets": [

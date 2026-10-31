@@ -765,7 +765,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Footprint" "AT25SF321B-SHB-T:SOIC127P790X216-8N"
+			(property "Footprint" "litho:AT25SF321B-SHB-T:SOIC127P790X216-8N"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -6191,7 +6191,7 @@
 				)
 			)
 		)
-		(property "Description" "Würth 61300811121"
+		(property "Description" "Generic connector, single row, 01x08, script generated"
 			(at 339.09 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -6439,7 +6439,7 @@
 				)
 			)
 		)
-		(property "Footprint" "AT25SF321B-SHB-T:SOIC127P790X216-8N"
+		(property "Footprint" "litho:AT25SF321B-SHB-T:SOIC127P790X216-8N"
 			(at 297.18 54.61 0)
 			(hide yes)
 			(show_name no)
