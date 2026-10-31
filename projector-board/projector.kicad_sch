@@ -10007,10 +10007,16 @@
 		(uuid "314c291b-e533-4a1e-8aff-46e1be7a43a1")
 	)
 	(junction
-		(at 257.81 62.23)
+		(at 276.86 62.23)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "33090f0f-9fa4-4170-8ccf-998adbd0578e")
+	)
+	(junction
+		(at 251.46 44.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "33f34b21-5899-4628-ac2c-8c4756d61959")
 	)
 	(junction
 		(at 153.67 125.73)
@@ -10101,6 +10107,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "552abf5c-46d0-4e1a-bda6-1da80e111abe")
+	)
+	(junction
+		(at 289.56 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "57227162-729b-478c-b22a-32c0bd18c58f")
 	)
 	(junction
 		(at 119.38 104.14)
@@ -10263,6 +10275,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "afc0ba1f-5633-4bbc-870c-185a1d8c7c0e")
+	)
+	(junction
+		(at 241.3 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b3a0ebfe-e2b8-4af1-9bbd-1b324e87498d")
 	)
 	(junction
 		(at 124.46 123.19)
@@ -10646,6 +10664,16 @@
 	)
 	(wire
 		(pts
+			(xy 276.86 62.23) (xy 289.56 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13af213d-7f4b-4e8e-b183-c9146d6125ec")
+	)
+	(wire
+		(pts
 			(xy 90.17 196.85) (xy 92.71 196.85)
 		)
 		(stroke
@@ -10836,7 +10864,7 @@
 	)
 	(wire
 		(pts
-			(xy 257.81 49.53) (xy 257.81 53.34)
+			(xy 276.86 49.53) (xy 276.86 53.34)
 		)
 		(stroke
 			(width 0)
@@ -10873,6 +10901,16 @@
 			(type default)
 		)
 		(uuid "227c6b5b-b6f8-4280-9ce8-f4294cd36254")
+	)
+	(wire
+		(pts
+			(xy 289.56 62.23) (xy 289.56 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2286e258-95f1-4e84-b437-1c371007e3ec")
 	)
 	(wire
 		(pts
@@ -11096,7 +11134,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 52.07) (xy 242.57 52.07)
+			(xy 220.98 52.07) (xy 264.16 52.07)
 		)
 		(stroke
 			(width 0)
@@ -11666,7 +11704,7 @@
 	)
 	(wire
 		(pts
-			(xy 242.57 62.23) (xy 242.57 60.96)
+			(xy 264.16 62.23) (xy 264.16 60.96)
 		)
 		(stroke
 			(width 0)
@@ -11866,7 +11904,7 @@
 	)
 	(wire
 		(pts
-			(xy 242.57 62.23) (xy 257.81 62.23)
+			(xy 264.16 62.23) (xy 276.86 62.23)
 		)
 		(stroke
 			(width 0)
@@ -11883,6 +11921,16 @@
 			(type default)
 		)
 		(uuid "6d1e5ef5-7766-429c-8624-fcbea5a60aab")
+	)
+	(wire
+		(pts
+			(xy 220.98 44.45) (xy 303.53 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6fd067f4-e547-4b83-979c-e38ab7c465b2")
 	)
 	(wire
 		(pts
@@ -11996,7 +12044,7 @@
 	)
 	(wire
 		(pts
-			(xy 232.41 49.53) (xy 257.81 49.53)
+			(xy 232.41 49.53) (xy 276.86 49.53)
 		)
 		(stroke
 			(width 0)
@@ -12026,7 +12074,7 @@
 	)
 	(wire
 		(pts
-			(xy 242.57 52.07) (xy 242.57 53.34)
+			(xy 264.16 52.07) (xy 264.16 53.34)
 		)
 		(stroke
 			(width 0)
@@ -12043,6 +12091,16 @@
 			(type default)
 		)
 		(uuid "797d374c-be51-4801-aff8-113d4abfa977")
+	)
+	(wire
+		(pts
+			(xy 289.56 53.34) (xy 289.56 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a67c4f4-dd31-41c4-87df-3c0e4907377a")
 	)
 	(wire
 		(pts
@@ -12073,6 +12131,16 @@
 			(type default)
 		)
 		(uuid "7b0d6dbf-879e-456a-89cf-9c7e06dd5109")
+	)
+	(wire
+		(pts
+			(xy 303.53 53.34) (xy 303.53 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b403260-1fef-4aef-b5c4-0386a1120bc7")
 	)
 	(wire
 		(pts
@@ -12436,6 +12504,16 @@
 	)
 	(wire
 		(pts
+			(xy 241.3 46.99) (xy 220.98 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b126a3b-06fe-4bfd-a8b8-883424412f6e")
+	)
+	(wire
+		(pts
 			(xy 54.61 224.79) (xy 59.69 224.79)
 		)
 		(stroke
@@ -12576,7 +12654,7 @@
 	)
 	(wire
 		(pts
-			(xy 257.81 60.96) (xy 257.81 63.5)
+			(xy 276.86 60.96) (xy 276.86 63.5)
 		)
 		(stroke
 			(width 0)
@@ -12686,6 +12764,16 @@
 	)
 	(wire
 		(pts
+			(xy 289.56 62.23) (xy 303.53 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad07dd7b-89db-4673-a217-afb574212b69")
+	)
+	(wire
+		(pts
 			(xy 81.28 72.39) (xy 90.17 72.39)
 		)
 		(stroke
@@ -12723,6 +12811,16 @@
 			(type default)
 		)
 		(uuid "ae89103c-a691-4157-bba0-d928154cf74f")
+	)
+	(wire
+		(pts
+			(xy 303.53 62.23) (xy 303.53 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aeadb76e-f093-4afd-989a-e899e18514b4")
 	)
 	(wire
 		(pts
@@ -12973,6 +13071,16 @@
 			(type default)
 		)
 		(uuid "c0e2ac4d-5f08-4c81-bc84-d94ffdfbb7e8")
+	)
+	(wire
+		(pts
+			(xy 251.46 44.45) (xy 251.46 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1556043-0715-42b9-af44-2f37598c0510")
 	)
 	(wire
 		(pts
@@ -13243,6 +13351,16 @@
 			(type default)
 		)
 		(uuid "d71ad99e-8a40-42bd-a0a3-2331f5d73233")
+	)
+	(wire
+		(pts
+			(xy 289.56 46.99) (xy 241.3 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d77d640a-9a1a-48d0-a86c-ee35c00fa4e3")
 	)
 	(wire
 		(pts
@@ -13663,6 +13781,16 @@
 			(type default)
 		)
 		(uuid "f9ed6e4c-60f5-4221-86ec-4c2790653703")
+	)
+	(wire
+		(pts
+			(xy 241.3 46.99) (xy 241.3 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa39857d-f688-42c9-abd4-289c905e28ca")
 	)
 	(wire
 		(pts
@@ -14379,7 +14507,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 257.81 63.5 0)
+		(at 276.86 63.5 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14390,7 +14518,7 @@
 		(fields_autoplaced yes)
 		(uuid "0374677e-6f18-4a7c-8735-2f7d91e72410")
 		(property "Reference" "#PWR016"
-			(at 257.81 69.85 0)
+			(at 276.86 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14401,7 +14529,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 257.81 68.58 0)
+			(at 276.86 68.58 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14411,7 +14539,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 257.81 63.5 0)
+			(at 276.86 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14422,7 +14550,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 257.81 63.5 0)
+			(at 276.86 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14433,7 +14561,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 257.81 63.5 0)
+			(at 276.86 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14890,7 +15018,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 257.81 57.15 180)
+		(at 276.86 57.15 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14901,7 +15029,7 @@
 		(fields_autoplaced yes)
 		(uuid "119cee7e-c15d-487e-86d2-381d9cb45da2")
 		(property "Reference" "C8"
-			(at 261.62 55.8799 0)
+			(at 280.67 55.8799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14912,7 +15040,7 @@
 			)
 		)
 		(property "Value" "2.2uF"
-			(at 261.62 58.4199 0)
+			(at 280.67 58.4199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14923,7 +15051,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 256.8448 53.34 0)
+			(at 275.8948 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14934,7 +15062,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 257.81 57.15 0)
+			(at 276.86 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14945,7 +15073,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 257.81 57.15 0)
+			(at 276.86 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14965,6 +15093,84 @@
 			(project "projector"
 				(path "/0c7b44f4-2a5d-4ccb-91ae-fa3b66550b5b"
 					(reference "C8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 251.46 53.34 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "139c1964-4dbd-43a7-8ca0-9cc073ca2542")
+		(property "Reference" "TP13"
+			(at 253.492 54.102 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "+VBIAS"
+			(at 253.492 56.642 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_2.0x2.0mm"
+			(at 246.38 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 246.38 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 251.46 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ba52c590-2193-4b38-9b30-15250aac6924")
+		)
+		(instances
+			(project "projector"
+				(path "/0c7b44f4-2a5d-4ccb-91ae-fa3b66550b5b"
+					(reference "TP13")
 					(unit 1)
 				)
 			)
@@ -17110,6 +17316,84 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 241.3 53.34 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "557c73f0-af99-4879-a68c-f76bf9a782b1")
+		(property "Reference" "TP11"
+			(at 243.332 54.102 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "+VOFS"
+			(at 243.332 56.642 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_2.0x2.0mm"
+			(at 236.22 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 236.22 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 241.3 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1bd4116a-e3ca-4242-8e71-e57a32a92c48")
+		)
+		(instances
+			(project "projector"
+				(path "/0c7b44f4-2a5d-4ccb-91ae-fa3b66550b5b"
+					(reference "TP11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 64.77 165.1 90)
 		(unit 1)
@@ -17291,7 +17575,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 242.57 57.15 180)
+		(at 264.16 57.15 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17302,7 +17586,7 @@
 		(fields_autoplaced yes)
 		(uuid "59a44530-c1f3-42a4-84b8-a7063c72d752")
 		(property "Reference" "C7"
-			(at 246.38 55.8799 0)
+			(at 267.97 55.8799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17313,7 +17597,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 246.38 58.4199 0)
+			(at 267.97 58.4199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17324,7 +17608,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 241.6048 53.34 0)
+			(at 263.1948 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17335,7 +17619,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 242.57 57.15 0)
+			(at 264.16 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17346,7 +17630,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 242.57 57.15 0)
+			(at 264.16 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17357,7 +17641,7 @@
 			)
 		)
 		(property "Digikey" "4713-GMC10X7R104K50NTCT-ND"
-			(at 242.57 57.15 0)
+			(at 264.16 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17455,6 +17739,84 @@
 			(project "projector"
 				(path "/0c7b44f4-2a5d-4ccb-91ae-fa3b66550b5b"
 					(reference "#PWR035")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 238.76 60.96 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "60a09a50-28cd-4fe4-8a64-3c0e7805e483")
+		(property "Reference" "TP12"
+			(at 240.792 61.722 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "+2V5"
+			(at 240.792 64.262 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_2.0x2.0mm"
+			(at 233.68 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 233.68 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 238.76 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f03997fb-2141-4ffc-ade5-f86cb5202301")
+		)
+		(instances
+			(project "projector"
+				(path "/0c7b44f4-2a5d-4ccb-91ae-fa3b66550b5b"
+					(reference "TP12")
 					(unit 1)
 				)
 			)
@@ -20123,6 +20485,88 @@
 			(project "projector"
 				(path "/0c7b44f4-2a5d-4ccb-91ae-fa3b66550b5b"
 					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 289.56 57.15 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8df7a610-7bee-469c-8e25-ab46fc7e8213")
+		(property "Reference" "C40"
+			(at 293.37 55.8799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.22uF"
+			(at 293.37 58.4199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 290.5252 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 289.56 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 289.56 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "f035303e-5b69-40bb-978a-2e14b3b52200")
+		)
+		(pin "1"
+			(uuid "01599bac-1034-4539-bed3-e92afaa19bf7")
+		)
+		(instances
+			(project "projector"
+				(path "/0c7b44f4-2a5d-4ccb-91ae-fa3b66550b5b"
+					(reference "C40")
 					(unit 1)
 				)
 			)
@@ -26327,6 +26771,88 @@
 			(project "projector"
 				(path "/0c7b44f4-2a5d-4ccb-91ae-fa3b66550b5b"
 					(reference "#PWR050")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 303.53 57.15 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "eb3a86b0-9faf-408a-a8ba-5872e7545508")
+		(property "Reference" "C41"
+			(at 307.34 55.8799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.22uF"
+			(at 307.34 58.4199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 304.4952 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 303.53 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 303.53 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "e4020019-acb0-4856-96c8-0ab860e6a8c6")
+		)
+		(pin "1"
+			(uuid "22e9aa76-ee1a-4717-a499-1ac073f4fe62")
+		)
+		(instances
+			(project "projector"
+				(path "/0c7b44f4-2a5d-4ccb-91ae-fa3b66550b5b"
+					(reference "C41")
 					(unit 1)
 				)
 			)
