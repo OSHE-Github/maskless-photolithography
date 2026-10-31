@@ -730,6 +730,172 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:D_Schottky"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "D_Schottky"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Schottky diode"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "diode Schottky"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "D_Schottky_0_1"
+				(polyline
+					(pts
+						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "D_Schottky_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:L"
 			(pin_numbers
 				(hide yes)
@@ -7757,9 +7923,10 @@
 						)
 					)
 				)
-				(pin output line
-					(at 30.48 -10.16 180)
+				(pin no_connect line
+					(at 1.27 12.7 180)
 					(length 5.08)
+					(hide yes)
 					(name "CMP_PWM"
 						(effects
 							(font
@@ -8564,7 +8731,7 @@
 		)
 		(uuid "9e5b824a-b275-45ee-baa9-40cf6f9dde63")
 	)
-	(text "This board requires 3 external power supplies: \n+5V 4.5A, +3.3V 1A, +1.8V 0.5A\n\nGND should be a full ground plane in a 4 layer board.\n\nPlace bypass caps as close as possible to designated pin\n\nGeneral TODOS: Select Micro. Decide on HMI"
+	(text "This board requires 3 external power supplies: \n+5V 4.5A, +3.3V 1A, +1.8V 0.5A\n\nGND should be a full ground plane in a 4 layer board.\n\nPlace bypass caps as close as possible to designated pin\n\nGeneral TODOS: Select Micro. Decide on HMI. Light sensor and NTC."
 		(exclude_from_sim no)
 		(at 14.732 25.654 0)
 		(effects
@@ -8683,6 +8850,12 @@
 		(uuid "0dbbd3ae-8025-44fb-b184-360a3731c77a")
 	)
 	(junction
+		(at 240.03 135.89)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1149b59b-3f03-45d7-8a9c-e2e7cb26c516")
+	)
+	(junction
 		(at 224.79 52.07)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8737,6 +8910,12 @@
 		(uuid "2f82b7f4-34c5-4d78-ad42-a9e842968c19")
 	)
 	(junction
+		(at 132.08 64.77)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "314c291b-e533-4a1e-8aff-46e1be7a43a1")
+	)
+	(junction
 		(at 257.81 62.23)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8779,10 +8958,22 @@
 		(uuid "478965ec-13bc-49ec-95b2-b68d1a74211f")
 	)
 	(junction
+		(at 240.03 124.46)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "532a53e3-4c15-472a-86e0-d43d88f1b9d3")
+	)
+	(junction
 		(at 119.38 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5af22a02-0c62-4986-bab2-d52a8a8ec235")
+	)
+	(junction
+		(at 262.89 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5de10844-6b92-4312-96d3-55acd8769e28")
 	)
 	(junction
 		(at 223.52 69.85)
@@ -8875,16 +9066,16 @@
 		(uuid "bea2a415-4b88-413f-a57f-41f4dde17946")
 	)
 	(junction
-		(at 261.62 82.55)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c3e1f00b-a700-4a32-8efb-ac664ea09fbd")
-	)
-	(junction
 		(at 148.59 123.19)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d76e9371-268d-4a0e-873f-cd11d82676d4")
+	)
+	(junction
+		(at 240.03 142.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dbcb5c86-3358-4003-8ab9-44b77d134628")
 	)
 	(junction
 		(at 166.37 137.16)
@@ -8954,7 +9145,7 @@
 	)
 	(wire
 		(pts
-			(xy 261.62 80.01) (xy 261.62 82.55)
+			(xy 262.89 80.01) (xy 262.89 82.55)
 		)
 		(stroke
 			(width 0)
@@ -8994,6 +9185,16 @@
 	)
 	(wire
 		(pts
+			(xy 252.73 142.24) (xy 250.19 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "031e71e8-164f-4992-808b-18f93877e63d")
+	)
+	(wire
+		(pts
 			(xy 220.98 69.85) (xy 223.52 69.85)
 		)
 		(stroke
@@ -9001,6 +9202,16 @@
 			(type default)
 		)
 		(uuid "04e60685-1103-46af-924f-6d025c9682c1")
+	)
+	(wire
+		(pts
+			(xy 252.73 146.05) (xy 252.73 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06a5df7a-88ed-4b64-916a-5b45fc395bdf")
 	)
 	(wire
 		(pts
@@ -9074,7 +9285,17 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 82.55) (xy 261.62 82.55)
+			(xy 262.89 82.55) (xy 293.37 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ef76e85-3172-443f-8a30-784917888516")
+	)
+	(wire
+		(pts
+			(xy 251.46 82.55) (xy 262.89 82.55)
 		)
 		(stroke
 			(width 0)
@@ -9101,6 +9322,16 @@
 			(type default)
 		)
 		(uuid "14b6265a-45ab-4550-ae34-13941efe06c9")
+	)
+	(wire
+		(pts
+			(xy 232.41 124.46) (xy 240.03 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1577a5ea-6dd5-4f87-b3fb-e392eb4fbe2e")
 	)
 	(wire
 		(pts
@@ -9224,6 +9455,26 @@
 	)
 	(wire
 		(pts
+			(xy 132.08 74.93) (xy 132.08 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24574af9-a7d9-40f5-8fb0-fe12673765bb")
+	)
+	(wire
+		(pts
+			(xy 132.08 66.04) (xy 132.08 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25138a44-d7e6-44f0-9606-970e6e8c66a7")
+	)
+	(wire
+		(pts
 			(xy 81.28 86.36) (xy 81.28 90.17)
 		)
 		(stroke
@@ -9261,6 +9512,26 @@
 			(type default)
 		)
 		(uuid "2756bf83-4528-43c4-81c6-b5a4e5d19fb9")
+	)
+	(wire
+		(pts
+			(xy 132.08 64.77) (xy 160.02 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27c2b540-1181-498f-9d4c-d866658e6b3b")
+	)
+	(wire
+		(pts
+			(xy 153.67 62.23) (xy 160.02 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27d8c593-2c27-42a2-b936-c51108e41f57")
 	)
 	(wire
 		(pts
@@ -9464,7 +9735,7 @@
 	)
 	(wire
 		(pts
-			(xy 261.62 91.44) (xy 261.62 92.71)
+			(xy 262.89 91.44) (xy 262.89 92.71)
 		)
 		(stroke
 			(width 0)
@@ -9551,6 +9822,16 @@
 			(type default)
 		)
 		(uuid "4e6b027f-74ba-4c1c-94ab-767768f177b3")
+	)
+	(wire
+		(pts
+			(xy 220.98 120.65) (xy 240.03 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e8696c9-10c6-4814-bcc5-9693aafeb13a")
 	)
 	(wire
 		(pts
@@ -9651,6 +9932,16 @@
 			(type default)
 		)
 		(uuid "5fe74fe7-990b-4719-bca3-bdbf33250217")
+	)
+	(wire
+		(pts
+			(xy 240.03 135.89) (xy 240.03 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "627929e9-28a4-47f0-afd9-ec1420fea1c3")
 	)
 	(wire
 		(pts
@@ -9824,6 +10115,16 @@
 	)
 	(wire
 		(pts
+			(xy 132.08 63.5) (xy 132.08 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73ad27f7-04ab-4188-a057-44b48a6ceb20")
+	)
+	(wire
+		(pts
 			(xy 90.17 72.39) (xy 99.06 72.39)
 		)
 		(stroke
@@ -9861,6 +10162,16 @@
 			(type default)
 		)
 		(uuid "75c7b5ea-c8ad-4710-a168-34719a549cf5")
+	)
+	(wire
+		(pts
+			(xy 240.03 120.65) (xy 240.03 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76afc36b-c346-43de-91df-30f4c58bb595")
 	)
 	(wire
 		(pts
@@ -9911,6 +10222,16 @@
 			(type default)
 		)
 		(uuid "7f3b9f5a-7967-4eac-99b7-e815e1e9a086")
+	)
+	(wire
+		(pts
+			(xy 148.59 77.47) (xy 160.02 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8189053e-a6cd-4b48-ab3d-23d6f7828365")
 	)
 	(wire
 		(pts
@@ -10001,6 +10322,16 @@
 			(type default)
 		)
 		(uuid "87d5ec21-04ac-426f-9be9-6a6d598a1c4e")
+	)
+	(wire
+		(pts
+			(xy 220.98 127) (xy 228.6 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "891bac3a-1854-468e-8aee-2e0cb0347e64")
 	)
 	(wire
 		(pts
@@ -10254,6 +10585,16 @@
 	)
 	(wire
 		(pts
+			(xy 240.03 125.73) (xy 240.03 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8ebd799-e71d-42e0-acd3-a30ef010bfcc")
+	)
+	(wire
+		(pts
 			(xy 156.21 130.81) (xy 153.67 130.81)
 		)
 		(stroke
@@ -10284,7 +10625,7 @@
 	)
 	(wire
 		(pts
-			(xy 261.62 83.82) (xy 261.62 82.55)
+			(xy 262.89 83.82) (xy 262.89 82.55)
 		)
 		(stroke
 			(width 0)
@@ -10364,16 +10705,6 @@
 	)
 	(wire
 		(pts
-			(xy 261.62 82.55) (xy 293.37 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b4e4925c-c48c-4c00-ad6d-4913150e3559")
-	)
-	(wire
-		(pts
 			(xy 101.6 132.08) (xy 101.6 133.35)
 		)
 		(stroke
@@ -10381,6 +10712,16 @@
 			(type default)
 		)
 		(uuid "b70d2cc3-7b45-4295-9c4c-3964bdd359af")
+	)
+	(wire
+		(pts
+			(xy 220.98 124.46) (xy 224.79 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7e06f71-f9e3-49f3-a6fd-b9200c003dc5")
 	)
 	(wire
 		(pts
@@ -10414,6 +10755,16 @@
 	)
 	(wire
 		(pts
+			(xy 240.03 142.24) (xy 240.03 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bace620a-bde3-481a-8758-ea42b5a0f985")
+	)
+	(wire
+		(pts
 			(xy 134.62 52.07) (xy 160.02 52.07)
 		)
 		(stroke
@@ -10431,6 +10782,16 @@
 			(type default)
 		)
 		(uuid "bc29b1ba-1797-450d-bf4a-7b2d433c8a32")
+	)
+	(wire
+		(pts
+			(xy 228.6 127) (xy 228.6 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc7e2ddb-20f2-468c-ad15-efc8bbf0d41a")
 	)
 	(wire
 		(pts
@@ -10604,6 +10965,16 @@
 	)
 	(wire
 		(pts
+			(xy 148.59 80.01) (xy 160.02 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dae5a138-627a-4cf5-912c-99ee4699fd63")
+	)
+	(wire
+		(pts
 			(xy 43.18 66.04) (xy 43.18 67.31)
 		)
 		(stroke
@@ -10621,6 +10992,16 @@
 			(type default)
 		)
 		(uuid "dc99014c-9f39-4474-9dc4-a4381cc07fe6")
+	)
+	(wire
+		(pts
+			(xy 242.57 142.24) (xy 240.03 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd08e63f-f147-46d6-bb8d-2cd40fccf40d")
 	)
 	(wire
 		(pts
@@ -10671,6 +11052,16 @@
 			(type default)
 		)
 		(uuid "e03b2c6d-a19b-4e5a-9d0f-b735984ce9a5")
+	)
+	(wire
+		(pts
+			(xy 240.03 135.89) (xy 240.03 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e05d64b2-261d-482b-8114-819ff5664ff1")
 	)
 	(wire
 		(pts
@@ -10824,6 +11215,16 @@
 	)
 	(wire
 		(pts
+			(xy 228.6 135.89) (xy 240.03 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f644f9f1-be10-4265-8408-ea254cfc8845")
+	)
+	(wire
+		(pts
 			(xy 228.6 69.85) (xy 228.6 68.58)
 		)
 		(stroke
@@ -10844,7 +11245,7 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 92.71) (xy 261.62 92.71)
+			(xy 251.46 92.71) (xy 262.89 92.71)
 		)
 		(stroke
 			(width 0)
@@ -10882,6 +11283,16 @@
 		)
 		(uuid "fb39aad0-d13d-4504-9ef1-e635c47e4a9f")
 	)
+	(label "SENS_LIGHT"
+		(at 148.59 77.47 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3f14bdf0-cb85-4846-9c0a-6d46e3a80229")
+	)
 	(label "UV_CATHODE"
 		(at 276.86 93.98 0)
 		(effects
@@ -10911,6 +11322,16 @@
 			(justify left bottom)
 		)
 		(uuid "9c911f1e-a80a-4867-8986-eb032f117ed9")
+	)
+	(label "SENS_NTC"
+		(at 148.59 80.01 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ae05c5a6-2e15-4d28-b600-0f0878b9e3d0")
 	)
 	(label "UNUSED_CONN"
 		(at 276.86 91.44 0)
@@ -11044,7 +11465,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 261.62 80.01 0)
+		(at 262.89 80.01 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -11055,7 +11476,7 @@
 		(dnp no)
 		(uuid "02591900-1de6-4e8a-b0c9-5ab01f3b7e1b")
 		(property "Reference" "TP8"
-			(at 263.652 79.248 0)
+			(at 264.922 79.248 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11066,7 +11487,7 @@
 			)
 		)
 		(property "Value" "VLED"
-			(at 263.652 76.708 0)
+			(at 264.922 76.708 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11077,7 +11498,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_2.0x2.0mm"
-			(at 256.54 80.01 0)
+			(at 257.81 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11088,7 +11509,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 256.54 80.01 0)
+			(at 257.81 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11099,7 +11520,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 261.62 80.01 0)
+			(at 262.89 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11708,6 +12129,85 @@
 			(project "projector"
 				(path "/0c7b44f4-2a5d-4ccb-91ae-fa3b66550b5b"
 					(reference "C8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 246.38 142.24 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "15356843-dead-496e-bb25-354d5e113628")
+		(property "Reference" "C21"
+			(at 243.078 140.97 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0.22uF"
+			(at 251.46 140.97 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 250.19 141.2748 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 246.38 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 246.38 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "576e6d98-5cec-495c-b096-0dc9640fd226")
+		)
+		(pin "1"
+			(uuid "0f7e08cf-1a02-4c40-874c-325c2407c170")
+		)
+		(instances
+			(project "projector"
+				(path "/0c7b44f4-2a5d-4ccb-91ae-fa3b66550b5b"
+					(reference "C21")
 					(unit 1)
 				)
 			)
@@ -12539,6 +13039,99 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 262.89 87.63 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "520cb35a-8017-4faf-abd3-da6a7b668fff")
+		(property "Reference" "C12"
+			(at 266.7 85.4709 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22uF"
+			(at 266.7 88.0109 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm"
+			(at 263.8552 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 262.89 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Polarized capacitor"
+			(at 262.89 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey" "732-8789-1-ND"
+			(at 262.89 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4510856c-9925-47a4-8b84-109b71c1ac38")
+		)
+		(pin "2"
+			(uuid "6625c69a-32d2-44d4-b0ed-cf5f2d454b8d")
+		)
+		(instances
+			(project "projector"
+				(path "/0c7b44f4-2a5d-4ccb-91ae-fa3b66550b5b"
+					(reference "C12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 101.6 119.38 0)
 		(unit 1)
@@ -12704,6 +13297,84 @@
 			(project "projector"
 				(path "/0c7b44f4-2a5d-4ccb-91ae-fa3b66550b5b"
 					(reference "C7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 132.08 74.93 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "5c22825e-9b5f-4298-970c-43fbd32efb36")
+		(property "Reference" "#PWR035"
+			(at 132.08 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 132.334 74.93 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 132.08 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 132.08 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 132.08 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d9066245-4c40-411c-bbf8-89b8a6dd609f")
+		)
+		(instances
+			(project "projector"
+				(path "/0c7b44f4-2a5d-4ccb-91ae-fa3b66550b5b"
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -14050,99 +14721,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 228.6 87.63 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7a13b9e2-c8eb-4cab-84ca-c9983c60e898")
-		(property "Reference" "C9"
-			(at 232.41 86.3599 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "22uF"
-			(at 232.41 88.8999 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm"
-			(at 227.6348 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 228.6 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 228.6 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Digikey" "732-8789-1-ND"
-			(at 228.6 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "201a6d87-c501-4e30-838c-db3488b9f89e")
-		)
-		(pin "2"
-			(uuid "6aa1b938-b2e8-4a15-84d6-e54714125a06")
-		)
-		(instances
-			(project "projector"
-				(path "/0c7b44f4-2a5d-4ccb-91ae-fa3b66550b5b"
-					(reference "C9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+5V")
 		(at 54.61 49.53 0)
 		(unit 1)
@@ -14468,6 +15046,99 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 228.6 87.63 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8a404044-d816-4fda-ba0d-7eb98798c140")
+		(property "Reference" "C9"
+			(at 232.41 85.4709 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22uF"
+			(at 232.41 88.0109 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm"
+			(at 229.5652 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 228.6 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Polarized capacitor"
+			(at 228.6 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey" "732-8789-1-ND"
+			(at 228.6 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "44b2ed2b-441f-4939-acb7-74ca1f100925")
+		)
+		(pin "2"
+			(uuid "f8be085b-ce47-4290-8b95-3cf572a30cbd")
+		)
+		(instances
+			(project "projector"
+				(path "/0c7b44f4-2a5d-4ccb-91ae-fa3b66550b5b"
+					(reference "C9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 124.46 128.27 0)
 		(unit 1)
@@ -14736,8 +15407,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 261.62 87.63 180)
+		(lib_id "power:+5V")
+		(at 240.03 147.32 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14745,32 +15416,30 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9484ac46-beec-47f3-afc2-31d6653e8419")
-		(property "Reference" "C12"
-			(at 265.43 86.3599 0)
+		(uuid "97fd756c-2c8f-4968-9023-b1ccbdf2be8e")
+		(property "Reference" "#PWR036"
+			(at 240.03 143.51 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Value" "22uF"
-			(at 265.43 88.8999 0)
+		(property "Value" "-VRST"
+			(at 240.03 151.13 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm"
-			(at 260.6548 83.82 0)
+		(property "Footprint" ""
+			(at 240.03 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14781,7 +15450,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 261.62 87.63 0)
+			(at 240.03 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14791,19 +15460,8 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
-			(at 261.62 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Digikey" "732-8789-1-ND"
-			(at 261.62 87.63 0)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 240.03 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14814,15 +15472,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "96edad34-e3f5-4bbe-a492-58e3d7804d59")
-		)
-		(pin "2"
-			(uuid "3015b56e-b026-4814-84f2-577130357745")
+			(uuid "fc0cc735-ef1f-4565-8a4c-9c0764342355")
 		)
 		(instances
 			(project "projector"
 				(path "/0c7b44f4-2a5d-4ccb-91ae-fa3b66550b5b"
-					(reference "C12")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -15372,6 +16027,176 @@
 			(project "projector"
 				(path "/0c7b44f4-2a5d-4ccb-91ae-fa3b66550b5b"
 					(reference "R12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 132.08 69.85 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a5786a6a-8d3a-4c15-9748-50231b7556f7")
+		(property "Reference" "C20"
+			(at 135.89 68.5799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 135.89 71.1199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 133.0452 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 132.08 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 132.08 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey" "490-3886-1-ND"
+			(at 132.08 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9524e10f-6d67-4fd4-9b9e-c4786db1d05a")
+		)
+		(pin "2"
+			(uuid "aa734408-feb8-41c5-955e-46d854117064")
+		)
+		(instances
+			(project "projector"
+				(path "/0c7b44f4-2a5d-4ccb-91ae-fa3b66550b5b"
+					(reference "C20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+1V8")
+		(at 132.08 63.5 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a7ca6986-9528-4be6-9287-7f5e94578e04")
+		(property "Reference" "#PWR06"
+			(at 132.08 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+1V8_SW"
+			(at 128.778 59.944 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 132.08 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 132.08 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+1V8\""
+			(at 132.08 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a7287146-16cf-42fb-ae16-8ddbd6ca4044")
+		)
+		(instances
+			(project "projector"
+				(path "/0c7b44f4-2a5d-4ccb-91ae-fa3b66550b5b"
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -15970,6 +16795,96 @@
 			(project "projector"
 				(path "/0c7b44f4-2a5d-4ccb-91ae-fa3b66550b5b"
 					(reference "C14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:L")
+		(at 228.6 124.46 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "bffed40c-5435-4162-a33d-983c72bfb5a9")
+		(property "Reference" "L3"
+			(at 224.79 122.682 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10 uH"
+			(at 233.68 122.682 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 228.6 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 228.6 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Inductor"
+			(at 228.6 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey" "587-1632-1-ND"
+			(at 228.6 124.46 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c6dd14ae-c492-4784-8e4e-05c235f45ab6")
+		)
+		(pin "2"
+			(uuid "73150bb6-4009-4bd2-b686-db48285b1f00")
+		)
+		(instances
+			(project "projector"
+				(path "/0c7b44f4-2a5d-4ccb-91ae-fa3b66550b5b"
+					(reference "L3")
 					(unit 1)
 				)
 			)
@@ -16678,99 +17593,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 240.03 87.63 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c0ce7d05-3d7b-4903-b50d-c328886326e5")
-		(property "Reference" "C10"
-			(at 243.84 86.3599 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "22uF"
-			(at 243.84 88.8999 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm"
-			(at 239.0648 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 240.03 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 240.03 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Digikey" "732-8789-1-ND"
-			(at 240.03 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "14859060-62c5-40ca-ab4b-7c56f6ccfdba")
-		)
-		(pin "2"
-			(uuid "2c1fb264-7800-452d-b9bd-e87c2572eee3")
-		)
-		(instances
-			(project "projector"
-				(path "/0c7b44f4-2a5d-4ccb-91ae-fa3b66550b5b"
-					(reference "C10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+5V")
 		(at 43.18 46.99 0)
 		(unit 1)
@@ -16924,6 +17746,176 @@
 			(project "projector"
 				(path "/0c7b44f4-2a5d-4ccb-91ae-fa3b66550b5b"
 					(reference "R14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 153.67 62.23 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c1b4926c-4109-47db-9c8b-e3efc2e11117")
+		(property "Reference" "#PWR034"
+			(at 153.67 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+1V8_SRC"
+			(at 147.32 60.706 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 153.67 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 153.67 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 153.67 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ad2fdbfc-6963-4683-a7a0-b97b31e8a136")
+		)
+		(instances
+			(project "projector"
+				(path "/0c7b44f4-2a5d-4ccb-91ae-fa3b66550b5b"
+					(reference "#PWR034")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 251.46 87.63 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c220e8cd-b0ec-45ab-8e4c-84c4d8642f43")
+		(property "Reference" "C11"
+			(at 255.27 85.4709 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22uF"
+			(at 255.27 88.0109 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm"
+			(at 252.4252 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 251.46 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Polarized capacitor"
+			(at 251.46 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey" "732-8789-1-ND"
+			(at 251.46 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "857cdab5-45ad-455e-a09b-fd8a87364084")
+		)
+		(pin "2"
+			(uuid "6a606599-43cb-47db-af6e-8a0e7bd551a7")
+		)
+		(instances
+			(project "projector"
+				(path "/0c7b44f4-2a5d-4ccb-91ae-fa3b66550b5b"
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -18199,6 +19191,99 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 240.03 87.63 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d12b790b-a907-4956-9050-513f9e0febf6")
+		(property "Reference" "C10"
+			(at 243.84 85.4709 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22uF"
+			(at 243.84 88.0109 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm"
+			(at 240.9952 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 240.03 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Polarized capacitor"
+			(at 240.03 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey" "732-8789-1-ND"
+			(at 240.03 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "07406c1b-5d81-4b4e-aa8d-565bac953956")
+		)
+		(pin "2"
+			(uuid "d1ac2c0b-7d12-465e-843b-fe09c8612cf8")
+		)
+		(instances
+			(project "projector"
+				(path "/0c7b44f4-2a5d-4ccb-91ae-fa3b66550b5b"
+					(reference "C10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:LED")
 		(at 341.63 31.75 90)
 		(unit 1)
@@ -18297,6 +19382,84 @@
 			(project "projector"
 				(path "/0c7b44f4-2a5d-4ccb-91ae-fa3b66550b5b"
 					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 252.73 146.05 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d210cd30-93e2-4e9a-b740-c28198bd0cf5")
+		(property "Reference" "#PWR037"
+			(at 252.73 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 252.73 151.13 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 252.73 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 252.73 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 252.73 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "61d7ce86-6024-4da3-9489-c89c3020ed7f")
+		)
+		(instances
+			(project "projector"
+				(path "/0c7b44f4-2a5d-4ccb-91ae-fa3b66550b5b"
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -19040,6 +20203,121 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:D_Schottky")
+		(at 240.03 129.54 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f669137f-9c4a-41a8-a243-f159fb30a681")
+		(property "Reference" "D3"
+			(at 242.57 127.9524 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "RB720M-30_R1_00001"
+			(at 242.57 130.4924 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 240.03 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 240.03 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Schottky diode"
+			(at 240.03 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 240.03 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 240.03 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey" "3757-RB720M-30_R1_00001CT-ND"
+			(at 240.03 129.54 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "daa85167-3522-4b2b-bcae-62180bd1c1b0")
+		)
+		(pin "2"
+			(uuid "72ffd8a6-4ab3-409d-b18f-0b4e4e73c21f")
+		)
+		(instances
+			(project "projector"
+				(path "/0c7b44f4-2a5d-4ccb-91ae-fa3b66550b5b"
+					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+1V8")
 		(at 81.28 69.85 0)
 		(unit 1)
@@ -19621,99 +20899,6 @@
 			(project "projector"
 				(path "/0c7b44f4-2a5d-4ccb-91ae-fa3b66550b5b"
 					(reference "#PWR032")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 251.46 87.63 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fd00fb70-d406-4073-8d42-f0f5ba6fb20d")
-		(property "Reference" "C11"
-			(at 255.27 86.3599 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "22uF"
-			(at 255.27 88.8999 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm"
-			(at 250.4948 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 251.46 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 251.46 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Digikey" "732-8789-1-ND"
-			(at 251.46 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b4c04373-ebb2-4b3f-bb47-e1d5439d1c5c")
-		)
-		(pin "2"
-			(uuid "9444c9b4-e628-41fc-a66b-c28756e81923")
-		)
-		(instances
-			(project "projector"
-				(path "/0c7b44f4-2a5d-4ccb-91ae-fa3b66550b5b"
-					(reference "C11")
 					(unit 1)
 				)
 			)
