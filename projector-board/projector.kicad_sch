@@ -10193,6 +10193,12 @@
 		(uuid "7ceb984a-c601-46cb-98ca-4f7f9041a6de")
 	)
 	(junction
+		(at 264.16 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7d9d3f95-6615-43ac-a406-1f11eae82d81")
+	)
+	(junction
 		(at 55.88 171.45)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10661,16 +10667,6 @@
 			(type default)
 		)
 		(uuid "10e7a60e-1a96-488f-a8ba-f3fff901b3f8")
-	)
-	(wire
-		(pts
-			(xy 276.86 62.23) (xy 289.56 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "13af213d-7f4b-4e8e-b183-c9146d6125ec")
 	)
 	(wire
 		(pts
@@ -11904,16 +11900,6 @@
 	)
 	(wire
 		(pts
-			(xy 264.16 62.23) (xy 276.86 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6cc70b54-40c0-4d02-8e91-af3b6b17ea2c")
-	)
-	(wire
-		(pts
 			(xy 31.75 67.31) (xy 26.67 67.31)
 		)
 		(stroke
@@ -12141,6 +12127,16 @@
 			(type default)
 		)
 		(uuid "7b403260-1fef-4aef-b5c4-0386a1120bc7")
+	)
+	(wire
+		(pts
+			(xy 264.16 62.23) (xy 303.53 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d91b004-31ef-4a94-bc1f-285e5c3f7886")
 	)
 	(wire
 		(pts
@@ -12654,7 +12650,7 @@
 	)
 	(wire
 		(pts
-			(xy 276.86 60.96) (xy 276.86 63.5)
+			(xy 260.35 62.23) (xy 260.35 63.5)
 		)
 		(stroke
 			(width 0)
@@ -12761,16 +12757,6 @@
 			(type default)
 		)
 		(uuid "acc7ed3d-9e12-4d12-b633-3fa7fcd63b5c")
-	)
-	(wire
-		(pts
-			(xy 289.56 62.23) (xy 303.53 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ad07dd7b-89db-4673-a217-afb574212b69")
 	)
 	(wire
 		(pts
@@ -13394,6 +13380,16 @@
 	)
 	(wire
 		(pts
+			(xy 276.86 62.23) (xy 276.86 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dbe1cf52-5c69-4eed-ab6e-ea89eea29c98")
+	)
+	(wire
+		(pts
 			(xy 73.66 196.85) (xy 68.58 196.85)
 		)
 		(stroke
@@ -13741,6 +13737,16 @@
 			(type default)
 		)
 		(uuid "f702de33-1775-42b6-bc8f-c485e1cfd93e")
+	)
+	(wire
+		(pts
+			(xy 260.35 62.23) (xy 264.16 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7388be0-44ab-498c-b492-2553174d1d2f")
 	)
 	(wire
 		(pts
@@ -14507,7 +14513,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 276.86 63.5 0)
+		(at 260.35 63.5 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14518,7 +14524,7 @@
 		(fields_autoplaced yes)
 		(uuid "0374677e-6f18-4a7c-8735-2f7d91e72410")
 		(property "Reference" "#PWR016"
-			(at 276.86 69.85 0)
+			(at 260.35 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14529,7 +14535,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 276.86 68.58 0)
+			(at 260.35 68.58 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14539,7 +14545,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 276.86 63.5 0)
+			(at 260.35 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14550,7 +14556,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 276.86 63.5 0)
+			(at 260.35 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14561,7 +14567,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 276.86 63.5 0)
+			(at 260.35 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17739,84 +17745,6 @@
 			(project "projector"
 				(path "/0c7b44f4-2a5d-4ccb-91ae-fa3b66550b5b"
 					(reference "#PWR035")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 238.76 60.96 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "60a09a50-28cd-4fe4-8a64-3c0e7805e483")
-		(property "Reference" "TP12"
-			(at 240.792 61.722 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "+2V5"
-			(at 240.792 64.262 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_2.0x2.0mm"
-			(at 233.68 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 233.68 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 238.76 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "f03997fb-2141-4ffc-ade5-f86cb5202301")
-		)
-		(instances
-			(project "projector"
-				(path "/0c7b44f4-2a5d-4ccb-91ae-fa3b66550b5b"
-					(reference "TP12")
 					(unit 1)
 				)
 			)
