@@ -14277,7 +14277,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -14792,99 +14792,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 341.63 43.18 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "06169ebe-b952-450f-bbbe-9aaf4226933a")
-		(property "Reference" "R2"
-			(at 344.17 41.9099 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "550"
-			(at 344.17 44.4499 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 339.852 43.18 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 341.63 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 341.63 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Digikey" "13-RT0805FRE07510RLCT-ND "
-			(at 341.63 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "e69515ea-8614-4c14-b281-523b15039b9b")
-		)
-		(pin "1"
-			(uuid "1ad35d88-8acf-48e8-9b38-1ee3a035f6dc")
-		)
-		(instances
-			(project "projector"
-				(path "/0c7b44f4-2a5d-4ccb-91ae-fa3b66550b5b"
-					(reference "R2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 64.77 209.55 90)
 		(unit 1)
@@ -15094,7 +15001,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 72.39 102.108 90)
 			(hide yes)
 			(show_name no)
@@ -15118,6 +15025,17 @@
 		)
 		(property "Description" "Resistor"
 			(at 72.39 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey" "RMCF0805FT30R1CT-ND"
+			(at 72.39 100.33 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15176,7 +15094,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 27.432 246.38 90)
 			(hide yes)
 			(show_name no)
@@ -15199,6 +15117,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 29.21 246.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey" "RNCP0805FTD10K0CT-ND"
 			(at 29.21 246.38 0)
 			(hide yes)
 			(show_name no)
@@ -15258,7 +15187,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 275.8948 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -15291,6 +15220,17 @@
 				)
 			)
 		)
+		(property "Digikey" "1292-0805B225K250CT-ND "
+			(at 276.86 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "eb7297fe-68d5-4a4b-8e8b-9378e57a4495")
 		)
@@ -15312,7 +15252,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -15415,7 +15355,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 250.19 141.2748 0)
 			(hide yes)
 			(show_name no)
@@ -15439,6 +15379,17 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 246.38 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey" "1276-CL21B224KBFNNNFCT-ND"
+			(at 246.38 142.24 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15640,7 +15591,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -16044,7 +15995,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -16150,7 +16101,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 118.4148 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -16183,6 +16134,17 @@
 				)
 			)
 		)
+		(property "Digikey" "1292-0805B225K250CT-ND "
+			(at 119.38 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "2e8b5caf-7215-4e1e-93a4-3958811cd16e")
 		)
@@ -16204,10 +16166,10 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "38f20f1c-9f45-46fd-adb2-24892f890688")
 		(property "Reference" "J5"
@@ -16419,7 +16381,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 151.13 97.028 90)
 			(hide yes)
 			(show_name no)
@@ -16443,6 +16405,17 @@
 		)
 		(property "Description" "Resistor"
 			(at 151.13 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey" "RMCF0805FT30R1CT-ND"
+			(at 151.13 95.25 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17337,7 +17310,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -17689,7 +17662,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -18118,7 +18091,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -19409,7 +19382,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 155.702 39.37 90)
 			(hide yes)
 			(show_name no)
@@ -19432,6 +19405,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 157.48 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey" "RNCP0805FTD10K0CT-ND"
 			(at 157.48 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -19646,7 +19630,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 79.502 82.55 90)
 			(hide yes)
 			(show_name no)
@@ -19669,6 +19653,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 81.28 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey" "RNCP0805FTD100KCT-ND"
 			(at 81.28 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -19728,7 +19723,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 88.392 82.55 90)
 			(hide yes)
 			(show_name no)
@@ -19751,6 +19746,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 90.17 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey" "RNCP0805FTD100KCT-ND"
 			(at 90.17 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -20183,7 +20189,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -20974,7 +20980,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 290.5252 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -20997,6 +21003,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 289.56 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey" "1276-CL21B224KBFNNNFCT-ND"
 			(at 289.56 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -22058,7 +22075,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 97.282 82.55 90)
 			(hide yes)
 			(show_name no)
@@ -22081,6 +22098,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 99.06 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey" "RNCP0805FTD100KCT-ND"
 			(at 99.06 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -22137,7 +22165,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 72.39 94.488 90)
 			(hide yes)
 			(show_name no)
@@ -22161,6 +22189,17 @@
 		)
 		(property "Description" "Resistor"
 			(at 72.39 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey" "RMCF0805FT30R1CT-ND"
+			(at 72.39 92.71 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22489,6 +22528,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 113.03 254 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey" "RMCF0805ZT0R00CT-ND"
 			(at 113.03 254 0)
 			(hide yes)
 			(show_name no)
@@ -23301,7 +23351,7 @@
 				)
 			)
 		)
-		(property "Value" "10 uH"
+		(property "Value" "10uH"
 			(at 233.68 122.682 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23311,7 +23361,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric_Pad1.05x1.20mm_HandSolder"
 			(at 228.6 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -24155,10 +24205,10 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "c1ac2bbc-ce9d-43c7-876f-bbe1ac96dced")
 		(property "Reference" "R14"
@@ -24183,7 +24233,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 143.002 39.37 90)
 			(hide yes)
 			(show_name no)
@@ -24931,7 +24981,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 72.39 91.948 90)
 			(hide yes)
 			(show_name no)
@@ -24955,6 +25005,17 @@
 		)
 		(property "Description" "Resistor"
 			(at 72.39 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey" "RMCF0805FT30R1CT-ND"
+			(at 72.39 90.17 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25687,10 +25748,10 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "cbc3a0f0-3928-4205-a213-80cc0b02c6f2")
 		(property "Reference" "J4"
@@ -26590,7 +26651,7 @@
 				)
 			)
 		)
-		(property "Value" "To PWR"
+		(property "Value" "PWR"
 			(at 19.685 45.72 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26838,6 +26899,99 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 341.63 43.18 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dfd45859-1fe8-41dd-af3d-f60da2fee960")
+		(property "Reference" "R27"
+			(at 344.17 41.9099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "510"
+			(at 344.17 44.4499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 339.852 43.18 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 341.63 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 341.63 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey" "13-RT0805FRE07510RLCT-ND "
+			(at 341.63 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "02ba0303-3ee7-4a8e-95c8-dcb762ccb70c")
+		)
+		(pin "1"
+			(uuid "d4ae2716-26af-4b73-b614-d306f735097c")
+		)
+		(instances
+			(project "projector"
+				(path "/0c7b44f4-2a5d-4ccb-91ae-fa3b66550b5b"
+					(reference "R27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 414.02 55.88 0)
 		(unit 1)
@@ -27077,7 +27231,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -27260,7 +27414,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 304.4952 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -27283,6 +27437,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 303.53 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey" "1276-CL21B224KBFNNNFCT-ND"
 			(at 303.53 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -27589,7 +27754,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-923"
 			(at 240.03 129.54 0)
 			(hide yes)
 			(show_name no)

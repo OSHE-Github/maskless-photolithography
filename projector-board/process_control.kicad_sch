@@ -765,7 +765,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Footprint" "litho:AT25SF321B-SHB-T:SOIC127P790X216-8N"
+			(property "Footprint" "litho:SOIC127P790X216-8N"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -6089,7 +6089,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 360.68 58.928 90)
 			(hide yes)
 			(show_name no)
@@ -6113,6 +6113,17 @@
 		)
 		(property "Description" "Resistor"
 			(at 360.68 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey" "RMCF0805FT30R1CT-ND"
+			(at 360.68 57.15 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6280,7 +6291,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 275.2852 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -6303,6 +6314,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 274.32 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey" "4713-GMC10X7R104K50NTCT-ND"
 			(at 274.32 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -6359,7 +6381,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 360.68 56.388 90)
 			(hide yes)
 			(show_name no)
@@ -6383,6 +6405,17 @@
 		)
 		(property "Description" "Resistor"
 			(at 360.68 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey" "RMCF0805FT30R1CT-ND"
+			(at 360.68 54.61 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6439,7 +6472,7 @@
 				)
 			)
 		)
-		(property "Footprint" "litho:AT25SF321B-SHB-T:SOIC127P790X216-8N"
+		(property "Footprint" "litho:SOIC127P790X216-8N"
 			(at 297.18 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -6633,7 +6666,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 322.58 64.008 90)
 			(hide yes)
 			(show_name no)
@@ -6657,6 +6690,17 @@
 		)
 		(property "Description" "Resistor"
 			(at 322.58 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey" "RMCF0805FT30R1CT-ND"
+			(at 322.58 62.23 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6869,7 +6913,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 347.472 46.99 90)
 			(hide yes)
 			(show_name no)
@@ -6892,6 +6936,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 349.25 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey" "RNCP0805FTD100KCT-ND"
 			(at 349.25 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -7653,7 +7708,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 338.582 46.99 90)
 			(hide yes)
 			(show_name no)
@@ -7676,6 +7731,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 340.36 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey" "RNCP0805FTD100KCT-ND"
 			(at 340.36 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -7812,7 +7878,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 319.278 40.64 90)
 			(hide yes)
 			(show_name no)
@@ -7835,6 +7901,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 317.5 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey" "RNCP0805FTD100KCT-ND"
 			(at 317.5 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -7891,7 +7968,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 360.68 66.548 90)
 			(hide yes)
 			(show_name no)
@@ -7915,6 +7992,17 @@
 		)
 		(property "Description" "Resistor"
 			(at 360.68 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey" "RMCF0805FT30R1CT-ND"
+			(at 360.68 64.77 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7973,7 +8061,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 320.802 46.99 90)
 			(hide yes)
 			(show_name no)
@@ -7996,6 +8084,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 322.58 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey" "RNCP0805FTD100KCT-ND"
 			(at 322.58 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -11112,7 +11211,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 329.692 46.99 90)
 			(hide yes)
 			(show_name no)
@@ -11135,6 +11234,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 331.47 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey" "RNCP0805FTD100KCT-ND"
 			(at 331.47 46.99 0)
 			(hide yes)
 			(show_name no)
