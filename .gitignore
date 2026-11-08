@@ -11,4 +11,4 @@
 fp-*cache
 
 # kicad user preferences
-.kicad_prl
+*.kicad_prl
