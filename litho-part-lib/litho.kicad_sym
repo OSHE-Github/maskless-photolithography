@@ -4006,7 +4006,7 @@
 				)
 			)
 		)
-		(property "Footprint" "litho:INTERPOSER_TODO"
+		(property "Footprint" "litho:PCB_OUTLINE_DLP301S_INTERPOSER"
 			(at -1.016 -34.163 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4581,7 +4581,7 @@
 			(pin input line
 				(at -24.13 33.02 0)
 				(length 7.62)
-				(name "D_P(0)"
+				(name "0D_P"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -4599,7 +4599,7 @@
 			(pin input line
 				(at -24.13 35.56 0)
 				(length 7.62)
-				(name "D_N(0)"
+				(name "0D_N"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -4769,7 +4769,7 @@
 			(pin input line
 				(at -24.13 17.78 0)
 				(length 7.62)
-				(name "D_P(2)"
+				(name "2D_P"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -4787,7 +4787,7 @@
 			(pin input line
 				(at -24.13 20.32 0)
 				(length 7.62)
-				(name "D_N(2)"
+				(name "2D_N"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -4805,7 +4805,7 @@
 			(pin input line
 				(at -24.13 25.4 0)
 				(length 7.62)
-				(name "D_P(1)"
+				(name "1D_P"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -4823,7 +4823,7 @@
 			(pin input line
 				(at -24.13 27.94 0)
 				(length 7.62)
-				(name "D_N(1)"
+				(name "1D_N"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -5181,7 +5181,7 @@
 			(pin input line
 				(at -24.13 2.54 0)
 				(length 7.62)
-				(name "D_P(4)"
+				(name "4D_P"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -5199,7 +5199,7 @@
 			(pin input line
 				(at -24.13 5.08 0)
 				(length 7.62)
-				(name "D_N(4)"
+				(name "4D_N"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -5217,7 +5217,7 @@
 			(pin input line
 				(at -24.13 10.16 0)
 				(length 7.62)
-				(name "D_P(3)"
+				(name "3D_P"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -5235,7 +5235,7 @@
 			(pin input line
 				(at -24.13 12.7 0)
 				(length 7.62)
-				(name "D_N(3)"
+				(name "3D_N"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -5405,7 +5405,7 @@
 			(pin input line
 				(at -24.13 -5.08 0)
 				(length 7.62)
-				(name "D_P(5)"
+				(name "5D_P"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -5423,7 +5423,7 @@
 			(pin input line
 				(at -24.13 -2.54 0)
 				(length 7.62)
-				(name "D_N(5)"
+				(name "5D_N"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -5612,7 +5612,7 @@
 			(pin input line
 				(at -24.13 -12.7 0)
 				(length 7.62)
-				(name "D_P(6)"
+				(name "6D_P"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -5630,7 +5630,7 @@
 			(pin input line
 				(at -24.13 -10.16 0)
 				(length 7.62)
-				(name "D_N(6)"
+				(name "6D_N"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -5648,7 +5648,7 @@
 			(pin input line
 				(at -24.13 -20.32 0)
 				(length 7.62)
-				(name "D_P(7)"
+				(name "7D_P"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -5666,7 +5666,7 @@
 			(pin input line
 				(at -24.13 -17.78 0)
 				(length 7.62)
-				(name "D_N(7)"
+				(name "7D_N"
 					(effects
 						(font
 							(size 1.27 1.27)
