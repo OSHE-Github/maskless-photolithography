@@ -572,7 +572,7 @@
       "netlist": "",
       "plot": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "dmd-interposer.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
