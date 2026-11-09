@@ -5898,16 +5898,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "PCB Thickness: 0.8mm"
-		(exclude_from_sim no)
-		(at 26.162 18.542 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "08135d87-f2f1-4eac-b471-19a54f71a6ac")
-	)
 	(text "Match length of LS_WDATA and LS_CLK"
 		(exclude_from_sim no)
 		(at 146.812 121.412 0)
