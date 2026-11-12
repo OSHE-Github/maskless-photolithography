@@ -12,3 +12,6 @@ fp-*cache
 
 # kicad user preferences
 *.kicad_prl
+
+# JLCPCB export
+production
