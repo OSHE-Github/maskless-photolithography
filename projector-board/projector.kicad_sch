@@ -25016,7 +25016,7 @@
 		(dnp no)
 		(uuid "9cb8f451-7059-461d-beec-f2680aac997f")
 		(property "Reference" "J1"
-			(at 394.462 201.93 0)
+			(at 398.78 201.676 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -25026,8 +25026,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "DMD_INTERPOSER"
-			(at 394.462 204.47 0)
+		(property "Value" "DMD"
+			(at 398.78 204.216 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -28519,7 +28519,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "To LED"
+		(property "Value" "LED"
 			(at 299.72 91.4399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28530,7 +28530,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "litho:CONN_SD-43045-010_04_MOL"
 			(at 298.45 91.44 0)
 			(hide yes)
 			(show_name no)
