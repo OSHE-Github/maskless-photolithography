@@ -27274,8 +27274,7 @@
 			)
 		)
 		(property "Digikey" "587-1632-1-ND"
-			(at 228.6 124.46 90)
-			(hide yes)
+			(at 228.6 125.73 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

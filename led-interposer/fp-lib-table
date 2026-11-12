@@ -1,0 +1,4 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "litho") (type "KiCad") (uri "${KIPRJMOD}/../litho-part-lib/litho.pretty") (options "") (descr "Maskless Litho Footprint Lib"))
+)

@@ -1,0 +1,21 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "2775b82b-468a-4c17-9ac2-81701ebb5f27")
+	(paper "USLetter")
+	(title_block
+		(title "LED_INTERPOSER")
+		(date "2026-11-11")
+		(rev "v1")
+		(company "MICHIGAN TECH OPEN SOURCE HARDWARE ENTERPRISE")
+		(comment 1 "Author: Andrew Kroll")
+	)
+	(lib_symbols)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

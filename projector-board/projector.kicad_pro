@@ -746,9 +746,14 @@
         "filename": "process_control.kicad_sch",
         "name": "process_control",
         "uuid": "f5e48288-fd85-4ef3-b40a-fcaa3a6c0ece"
+      },
+      {
+        "filename": "host_interface.kicad_sch",
+        "name": "host_interface",
+        "uuid": "a61b54c9-c67d-4578-8266-2d06212fb89e"
       }
     ],
-    "used_designators": "#FLG1-5,#PWR1-66,C1-42,D1-6,J1-6,L1-3,R1-28,TP1-13,U1-6",
+    "used_designators": "#FLG1-5,#PWR1-66,#PWR69-97,C1-42,C48-66,D1-6,J1-8,L1-3,R1-37,R48-49,TP1-13,U1-10,Y2",
     "variants": []
   },
   "sheets": [
@@ -759,6 +764,10 @@
     [
       "f5e48288-fd85-4ef3-b40a-fcaa3a6c0ece",
       "process_control"
+    ],
+    [
+      "a61b54c9-c67d-4578-8266-2d06212fb89e",
+      "host_interface"
     ]
   ],
   "text_variables": {},
