@@ -243,7 +243,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": "v1.1"
+      "sch_revision": "v1.2"
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -627,6 +627,24 @@
           "label": "Description",
           "name": "Description",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Device",
+          "name": "Sim.Device",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Digikey",
+          "name": "Digikey",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -677,7 +695,7 @@
         "uuid": "185fb668-0f25-4c94-abe9-351864c4a372"
       }
     ],
-    "used_designators": "#PWR1-54,A1,C2-4,C8,C13-18,C23-34,D1-2,J1-7,R1-10,U1",
+    "used_designators": "#FLG2-5,#PWR1-78,A1-4,C1-18,C23-37,D1-3,J1-10,Q1,R1-22,SW1,TP1-15,U1-2",
     "variants": []
   },
   "sheets": [
