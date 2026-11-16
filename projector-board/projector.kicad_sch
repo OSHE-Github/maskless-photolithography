@@ -24457,7 +24457,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "litho:SDCHA1V60451R2R"
 			(at 228.6 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -24480,6 +24480,17 @@
 			)
 		)
 		(property "Description" "Inductor"
+			(at 228.6 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey" "283-SDCHA1V6045-2R2-RCT-ND"
 			(at 228.6 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -30694,7 +30705,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "litho:CONN_55660001-SD_04_MOL"
 			(at 19.05 50.8 0)
 			(hide yes)
 			(show_name no)
