@@ -197,8 +197,8 @@
 					)
 				)
 			)
-			(property "Footprint" "CON_522713079_MOL"
-				(at 0 0 0)
+			(property "Footprint" "litho:CON_522713079_MOL"
+				(at 0.254 7.874 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -210,7 +210,7 @@
 				)
 			)
 			(property "Datasheet" "https://www.molex.com/en-us/products/part-detail-pdf/522713079?display=pdf"
-				(at 0 0 0)
+				(at -2.032 12.7 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -226,16 +226,6 @@
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1466,7 +1456,7 @@
 					)
 				)
 				(pin unspecified line
-					(at 0 0 0)
+					(at 0 -73.66 0)
 					(length 5.08)
 					(name "1"
 						(effects
@@ -1484,7 +1474,7 @@
 					)
 				)
 				(pin unspecified line
-					(at 0 -2.54 0)
+					(at 0 -71.12 0)
 					(length 5.08)
 					(name "2"
 						(effects
@@ -1502,7 +1492,7 @@
 					)
 				)
 				(pin unspecified line
-					(at 0 -5.08 0)
+					(at 0 -68.58 0)
 					(length 5.08)
 					(name "3"
 						(effects
@@ -1520,7 +1510,7 @@
 					)
 				)
 				(pin unspecified line
-					(at 0 -7.62 0)
+					(at 0 -66.04 0)
 					(length 5.08)
 					(name "4"
 						(effects
@@ -1538,7 +1528,7 @@
 					)
 				)
 				(pin unspecified line
-					(at 0 -10.16 0)
+					(at 0 -63.5 0)
 					(length 5.08)
 					(name "5"
 						(effects
@@ -1556,7 +1546,7 @@
 					)
 				)
 				(pin unspecified line
-					(at 0 -12.7 0)
+					(at 0 -60.96 0)
 					(length 5.08)
 					(name "6"
 						(effects
@@ -1574,7 +1564,7 @@
 					)
 				)
 				(pin unspecified line
-					(at 0 -15.24 0)
+					(at 0 -58.42 0)
 					(length 5.08)
 					(name "7"
 						(effects
@@ -1592,7 +1582,7 @@
 					)
 				)
 				(pin unspecified line
-					(at 0 -17.78 0)
+					(at 0 -55.88 0)
 					(length 5.08)
 					(name "8"
 						(effects
@@ -1610,7 +1600,7 @@
 					)
 				)
 				(pin unspecified line
-					(at 0 -20.32 0)
+					(at 0 -53.34 0)
 					(length 5.08)
 					(name "9"
 						(effects
@@ -1628,7 +1618,7 @@
 					)
 				)
 				(pin unspecified line
-					(at 0 -22.86 0)
+					(at 0 -50.8 0)
 					(length 5.08)
 					(name "10"
 						(effects
@@ -1646,7 +1636,7 @@
 					)
 				)
 				(pin unspecified line
-					(at 0 -25.4 0)
+					(at 0 -48.26 0)
 					(length 5.08)
 					(name "11"
 						(effects
@@ -1664,7 +1654,7 @@
 					)
 				)
 				(pin unspecified line
-					(at 0 -27.94 0)
+					(at 0 -45.72 0)
 					(length 5.08)
 					(name "12"
 						(effects
@@ -1682,7 +1672,7 @@
 					)
 				)
 				(pin unspecified line
-					(at 0 -30.48 0)
+					(at 0 -43.18 0)
 					(length 5.08)
 					(name "13"
 						(effects
@@ -1700,7 +1690,7 @@
 					)
 				)
 				(pin unspecified line
-					(at 0 -33.02 0)
+					(at 0 -40.64 0)
 					(length 5.08)
 					(name "14"
 						(effects
@@ -1718,7 +1708,7 @@
 					)
 				)
 				(pin unspecified line
-					(at 0 -35.56 0)
+					(at 0 -38.1 0)
 					(length 5.08)
 					(name "15"
 						(effects
@@ -1736,7 +1726,7 @@
 					)
 				)
 				(pin unspecified line
-					(at 0 -38.1 0)
+					(at 0 -35.56 0)
 					(length 5.08)
 					(name "16"
 						(effects
@@ -1754,7 +1744,7 @@
 					)
 				)
 				(pin unspecified line
-					(at 0 -40.64 0)
+					(at 0 -33.02 0)
 					(length 5.08)
 					(name "17"
 						(effects
@@ -1772,7 +1762,7 @@
 					)
 				)
 				(pin unspecified line
-					(at 0 -43.18 0)
+					(at 0 -30.48 0)
 					(length 5.08)
 					(name "18"
 						(effects
@@ -1790,7 +1780,7 @@
 					)
 				)
 				(pin unspecified line
-					(at 0 -45.72 0)
+					(at 0 -27.94 0)
 					(length 5.08)
 					(name "19"
 						(effects
@@ -1808,7 +1798,7 @@
 					)
 				)
 				(pin unspecified line
-					(at 0 -48.26 0)
+					(at 0 -25.4 0)
 					(length 5.08)
 					(name "20"
 						(effects
@@ -1826,7 +1816,7 @@
 					)
 				)
 				(pin unspecified line
-					(at 0 -50.8 0)
+					(at 0 -22.86 0)
 					(length 5.08)
 					(name "21"
 						(effects
@@ -1844,7 +1834,7 @@
 					)
 				)
 				(pin unspecified line
-					(at 0 -53.34 0)
+					(at 0 -20.32 0)
 					(length 5.08)
 					(name "22"
 						(effects
@@ -1862,7 +1852,7 @@
 					)
 				)
 				(pin unspecified line
-					(at 0 -55.88 0)
+					(at 0 -17.78 0)
 					(length 5.08)
 					(name "23"
 						(effects
@@ -1880,7 +1870,7 @@
 					)
 				)
 				(pin unspecified line
-					(at 0 -58.42 0)
+					(at 0 -15.24 0)
 					(length 5.08)
 					(name "24"
 						(effects
@@ -1898,7 +1888,7 @@
 					)
 				)
 				(pin unspecified line
-					(at 0 -60.96 0)
+					(at 0 -12.7 0)
 					(length 5.08)
 					(name "25"
 						(effects
@@ -1916,7 +1906,7 @@
 					)
 				)
 				(pin unspecified line
-					(at 0 -63.5 0)
+					(at 0 -10.16 0)
 					(length 5.08)
 					(name "26"
 						(effects
@@ -1934,7 +1924,7 @@
 					)
 				)
 				(pin unspecified line
-					(at 0 -66.04 0)
+					(at 0 -7.62 0)
 					(length 5.08)
 					(name "27"
 						(effects
@@ -1952,7 +1942,7 @@
 					)
 				)
 				(pin unspecified line
-					(at 0 -68.58 0)
+					(at 0 -5.08 0)
 					(length 5.08)
 					(name "28"
 						(effects
@@ -1970,7 +1960,7 @@
 					)
 				)
 				(pin unspecified line
-					(at 0 -71.12 0)
+					(at 0 -2.54 0)
 					(length 5.08)
 					(name "29"
 						(effects
@@ -1988,7 +1978,7 @@
 					)
 				)
 				(pin unspecified line
-					(at 0 -73.66 0)
+					(at 0 0 0)
 					(length 5.08)
 					(name "30"
 						(effects
@@ -3851,7 +3841,7 @@
 					)
 				)
 			)
-			(property "Footprint" "litho:INTERPOSER_TODO"
+			(property "Footprint" "litho:PCB_OUTLINE_DLP301S_INTERPOSER"
 				(at -1.016 -34.163 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -7699,7 +7689,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CON_522713079_MOL"
+		(property "Footprint" "litho:CON_522713079_MOL"
 			(at 58.42 60.96 0)
 			(hide yes)
 			(show_name no)

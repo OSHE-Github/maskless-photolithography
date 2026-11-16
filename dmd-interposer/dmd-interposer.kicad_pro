@@ -76,24 +76,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        [
-          "copper_edge_clearance|142875202|89015305|729a7e32-d787-4369-b1e3-55d1074a61cf|66de87b1-0218-46cf-88b4-fbcd0658fab4",
-          "Footprint provides extra space"
-        ],
-        [
-          "copper_edge_clearance|142877995|89585869|729a7e32-d787-4369-b1e3-55d1074a61cf|b02aef7b-24cd-49de-9602-f535ed5293bf",
-          "Footprint provides extra space"
-        ],
-        [
-          "copper_edge_clearance|142908422|89203835|729a7e32-d787-4369-b1e3-55d1074a61cf|dcb8d413-3452-450f-bd55-3befb46c8103",
-          "Footprint provides extra space"
-        ],
-        [
-          "copper_edge_clearance|142909994|89403844|729a7e32-d787-4369-b1e3-55d1074a61cf|01b8acd2-13d2-44bd-adb0-53f8f05430ff",
-          "Footprint provides extra space"
-        ]
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },

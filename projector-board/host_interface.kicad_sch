@@ -8840,7 +8840,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "016ccb2d-046b-4856-80c9-103d77c7d41d")
-		(property "Reference" "R49"
+		(property "Reference" "R309"
 			(at 297.942 100.838 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8924,7 +8924,7 @@
 		(instances
 			(project "projector"
 				(path "/a61b54c9-c67d-4578-8266-2d06212fb89e"
-					(reference "R49")
+					(reference "R309")
 					(unit 1)
 				)
 			)
@@ -8942,7 +8942,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0278c9ea-d8fe-4011-9694-cd82fa2a1d3e")
-		(property "Reference" "#PWR0106"
+		(property "Reference" "#PWR0326"
 			(at 307.34 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -9002,7 +9002,7 @@
 		(instances
 			(project "projector"
 				(path "/a61b54c9-c67d-4578-8266-2d06212fb89e"
-					(reference "#PWR0106")
+					(reference "#PWR0326")
 					(unit 1)
 				)
 			)
@@ -9020,7 +9020,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0b775ac7-05e6-45ef-84a2-d4038b202bce")
-		(property "Reference" "C63"
+		(property "Reference" "C317"
 			(at 259.08 140.97 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9104,7 +9104,7 @@
 		(instances
 			(project "projector"
 				(path "/a61b54c9-c67d-4578-8266-2d06212fb89e"
-					(reference "C63")
+					(reference "C317")
 					(unit 1)
 				)
 			)
@@ -9122,7 +9122,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0ce55c29-20b1-4a8e-849d-0aa3288b148d")
-		(property "Reference" "#PWR0107"
+		(property "Reference" "#PWR0327"
 			(at 309.88 160.02 0)
 			(hide yes)
 			(show_name no)
@@ -9182,7 +9182,7 @@
 		(instances
 			(project "projector"
 				(path "/a61b54c9-c67d-4578-8266-2d06212fb89e"
-					(reference "#PWR0107")
+					(reference "#PWR0327")
 					(unit 1)
 				)
 			)
@@ -9200,7 +9200,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "11127520-d622-4d29-842e-250acfa3fe6a")
-		(property "Reference" "#PWR090"
+		(property "Reference" "#PWR0310"
 			(at 163.83 156.21 0)
 			(hide yes)
 			(show_name no)
@@ -9260,7 +9260,7 @@
 		(instances
 			(project "projector"
 				(path "/a61b54c9-c67d-4578-8266-2d06212fb89e"
-					(reference "#PWR090")
+					(reference "#PWR0310")
 					(unit 1)
 				)
 			)
@@ -9278,7 +9278,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "190833c7-162c-4bfc-931c-4d9e78f3ae39")
-		(property "Reference" "C55"
+		(property "Reference" "C309"
 			(at 208.28 64.7699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9364,7 +9364,7 @@
 		(instances
 			(project "projector"
 				(path "/a61b54c9-c67d-4578-8266-2d06212fb89e"
-					(reference "C55")
+					(reference "C309")
 					(unit 1)
 				)
 			)
@@ -9381,7 +9381,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1d3dd808-e772-49e7-8cb3-4b209fe7a7b4")
-		(property "Reference" "R44"
+		(property "Reference" "R304"
 			(at 225.044 98.044 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9465,7 +9465,7 @@
 		(instances
 			(project "projector"
 				(path "/a61b54c9-c67d-4578-8266-2d06212fb89e"
-					(reference "R44")
+					(reference "R304")
 					(unit 1)
 				)
 			)
@@ -9483,7 +9483,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1e2ea419-e7c5-4484-9487-7a0991aece70")
-		(property "Reference" "#PWR096"
+		(property "Reference" "#PWR0316"
 			(at 255.27 156.21 0)
 			(hide yes)
 			(show_name no)
@@ -9543,7 +9543,7 @@
 		(instances
 			(project "projector"
 				(path "/a61b54c9-c67d-4578-8266-2d06212fb89e"
-					(reference "#PWR096")
+					(reference "#PWR0316")
 					(unit 1)
 				)
 			)
@@ -9560,7 +9560,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1f482f2e-32b3-4f0a-829e-84c00ecb2da5")
-		(property "Reference" "R47"
+		(property "Reference" "R307"
 			(at 280.924 183.642 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9644,7 +9644,7 @@
 		(instances
 			(project "projector"
 				(path "/a61b54c9-c67d-4578-8266-2d06212fb89e"
-					(reference "R47")
+					(reference "R307")
 					(unit 1)
 				)
 			)
@@ -9661,7 +9661,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "25b6bfd9-ff6f-47da-9fe1-f85cccd823a6")
-		(property "Reference" "R46"
+		(property "Reference" "R306"
 			(at 280.924 146.812 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9745,7 +9745,7 @@
 		(instances
 			(project "projector"
 				(path "/a61b54c9-c67d-4578-8266-2d06212fb89e"
-					(reference "R46")
+					(reference "R306")
 					(unit 1)
 				)
 			)
@@ -9762,7 +9762,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2c574eb9-fab7-4a10-a07b-3ecac3275e60")
-		(property "Reference" "C50"
+		(property "Reference" "C304"
 			(at 147.574 104.14 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9848,7 +9848,7 @@
 		(instances
 			(project "projector"
 				(path "/a61b54c9-c67d-4578-8266-2d06212fb89e"
-					(reference "C50")
+					(reference "C304")
 					(unit 1)
 				)
 			)
@@ -9866,7 +9866,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3055356f-f78a-4b0c-8b8d-cbc8a9f25f96")
-		(property "Reference" "#PWR0105"
+		(property "Reference" "#PWR0325"
 			(at 304.8 146.05 0)
 			(hide yes)
 			(show_name no)
@@ -9926,7 +9926,7 @@
 		(instances
 			(project "projector"
 				(path "/a61b54c9-c67d-4578-8266-2d06212fb89e"
-					(reference "#PWR0105")
+					(reference "#PWR0325")
 					(unit 1)
 				)
 			)
@@ -9944,7 +9944,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3b1445c7-e515-43c0-88b6-d4ab107086c3")
-		(property "Reference" "C62"
+		(property "Reference" "C316"
 			(at 252.73 36.8299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10030,7 +10030,7 @@
 		(instances
 			(project "projector"
 				(path "/a61b54c9-c67d-4578-8266-2d06212fb89e"
-					(reference "C62")
+					(reference "C316")
 					(unit 1)
 				)
 			)
@@ -10048,7 +10048,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3dcc3760-79d7-439e-9d05-4bec8bc0ebe9")
-		(property "Reference" "U7"
+		(property "Reference" "U301"
 			(at 195.1833 209.55 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10429,7 +10429,7 @@
 		(instances
 			(project "projector"
 				(path "/a61b54c9-c67d-4578-8266-2d06212fb89e"
-					(reference "U7")
+					(reference "U301")
 					(unit 1)
 				)
 			)
@@ -10447,7 +10447,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4498788d-1bfc-49a0-b892-d7e3bceeec2c")
-		(property "Reference" "Y2"
+		(property "Reference" "Y301"
 			(at 139.7 92.7099 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10550,7 +10550,7 @@
 		(instances
 			(project "projector"
 				(path "/a61b54c9-c67d-4578-8266-2d06212fb89e"
-					(reference "Y2")
+					(reference "Y301")
 					(unit 1)
 				)
 			)
@@ -10568,7 +10568,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "469e7ff9-fefe-48cc-b630-9d8214be7e67")
-		(property "Reference" "C47"
+		(property "Reference" "C301"
 			(at 138.43 189.2299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10654,7 +10654,7 @@
 		(instances
 			(project "projector"
 				(path "/a61b54c9-c67d-4578-8266-2d06212fb89e"
-					(reference "C47")
+					(reference "C301")
 					(unit 1)
 				)
 			)
@@ -10672,7 +10672,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "49cae251-29ea-47bc-a1c4-59bd6d81c25e")
-		(property "Reference" "#PWR099"
+		(property "Reference" "#PWR0319"
 			(at 265.43 176.53 0)
 			(hide yes)
 			(show_name no)
@@ -10732,7 +10732,7 @@
 		(instances
 			(project "projector"
 				(path "/a61b54c9-c67d-4578-8266-2d06212fb89e"
-					(reference "#PWR099")
+					(reference "#PWR0319")
 					(unit 1)
 				)
 			)
@@ -10749,7 +10749,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4fc90728-1f63-4c30-853a-7b81887ecbca")
-		(property "Reference" "R51"
+		(property "Reference" "R311"
 			(at 314.198 160.02 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10833,7 +10833,7 @@
 		(instances
 			(project "projector"
 				(path "/a61b54c9-c67d-4578-8266-2d06212fb89e"
-					(reference "R51")
+					(reference "R311")
 					(unit 1)
 				)
 			)
@@ -10851,7 +10851,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "52c3cedf-adbd-4fe0-a613-6d987458bc31")
-		(property "Reference" "#PWR094"
+		(property "Reference" "#PWR0314"
 			(at 240.03 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -10911,7 +10911,7 @@
 		(instances
 			(project "projector"
 				(path "/a61b54c9-c67d-4578-8266-2d06212fb89e"
-					(reference "#PWR094")
+					(reference "#PWR0314")
 					(unit 1)
 				)
 			)
@@ -10929,7 +10929,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "54b36b1d-a909-4168-9cbb-e074b125d4ee")
-		(property "Reference" "#PWR085"
+		(property "Reference" "#PWR0305"
 			(at 143.51 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -10989,7 +10989,7 @@
 		(instances
 			(project "projector"
 				(path "/a61b54c9-c67d-4578-8266-2d06212fb89e"
-					(reference "#PWR085")
+					(reference "#PWR0305")
 					(unit 1)
 				)
 			)
@@ -11007,7 +11007,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "55ccc07f-77e2-445f-a860-90deab7dcd70")
-		(property "Reference" "#PWR087"
+		(property "Reference" "#PWR0307"
 			(at 149.86 184.15 0)
 			(hide yes)
 			(show_name no)
@@ -11067,7 +11067,7 @@
 		(instances
 			(project "projector"
 				(path "/a61b54c9-c67d-4578-8266-2d06212fb89e"
-					(reference "#PWR087")
+					(reference "#PWR0307")
 					(unit 1)
 				)
 			)
@@ -11085,7 +11085,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "55dd5783-3802-4e39-8b64-d2f4811dda79")
-		(property "Reference" "#PWR083"
+		(property "Reference" "#PWR0303"
 			(at 128.27 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -11145,7 +11145,7 @@
 		(instances
 			(project "projector"
 				(path "/a61b54c9-c67d-4578-8266-2d06212fb89e"
-					(reference "#PWR083")
+					(reference "#PWR0303")
 					(unit 1)
 				)
 			)
@@ -11163,7 +11163,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5726abec-a516-414c-89da-ad28db3b45d7")
-		(property "Reference" "#PWR098"
+		(property "Reference" "#PWR0318"
 			(at 265.43 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -11224,7 +11224,7 @@
 		(instances
 			(project "projector"
 				(path "/a61b54c9-c67d-4578-8266-2d06212fb89e"
-					(reference "#PWR098")
+					(reference "#PWR0318")
 					(unit 1)
 				)
 			)
@@ -11241,7 +11241,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "57c5ff8f-a06b-4743-9f95-937061170f80")
-		(property "Reference" "R45"
+		(property "Reference" "R305"
 			(at 225.044 100.584 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11325,7 +11325,7 @@
 		(instances
 			(project "projector"
 				(path "/a61b54c9-c67d-4578-8266-2d06212fb89e"
-					(reference "R45")
+					(reference "R305")
 					(unit 1)
 				)
 			)
@@ -11343,7 +11343,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5ddee7d3-bc60-4e1d-ab47-8cd48cc164bd")
-		(property "Reference" "C59"
+		(property "Reference" "C313"
 			(at 228.6 64.7699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11429,7 +11429,7 @@
 		(instances
 			(project "projector"
 				(path "/a61b54c9-c67d-4578-8266-2d06212fb89e"
-					(reference "C59")
+					(reference "C313")
 					(unit 1)
 				)
 			)
@@ -11447,7 +11447,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "603a97ca-e70d-445d-a04b-0bb4443064fa")
-		(property "Reference" "#PWR089"
+		(property "Reference" "#PWR0309"
 			(at 161.29 209.55 0)
 			(hide yes)
 			(show_name no)
@@ -11507,7 +11507,7 @@
 		(instances
 			(project "projector"
 				(path "/a61b54c9-c67d-4578-8266-2d06212fb89e"
-					(reference "#PWR089")
+					(reference "#PWR0309")
 					(unit 1)
 				)
 			)
@@ -11525,7 +11525,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6156fed0-34c3-49e0-8613-022b2d1216cc")
-		(property "Reference" "C65"
+		(property "Reference" "C319"
 			(at 327.66 128.2699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11611,7 +11611,7 @@
 		(instances
 			(project "projector"
 				(path "/a61b54c9-c67d-4578-8266-2d06212fb89e"
-					(reference "C65")
+					(reference "C319")
 					(unit 1)
 				)
 			)
@@ -11628,7 +11628,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "640971c3-a1e9-4edf-a8dc-52bc1165ef2b")
-		(property "Reference" "R43"
+		(property "Reference" "R303"
 			(at 159.766 153.162 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11712,7 +11712,7 @@
 		(instances
 			(project "projector"
 				(path "/a61b54c9-c67d-4578-8266-2d06212fb89e"
-					(reference "R43")
+					(reference "R303")
 					(unit 1)
 				)
 			)
@@ -11730,7 +11730,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6859bceb-0b88-4d33-8e99-a44f0b74aae2")
-		(property "Reference" "J9"
+		(property "Reference" "J302"
 			(at 266.7 83.82 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11870,7 +11870,7 @@
 		(instances
 			(project "projector"
 				(path "/a61b54c9-c67d-4578-8266-2d06212fb89e"
-					(reference "J9")
+					(reference "J302")
 					(unit 1)
 				)
 			)
@@ -11887,7 +11887,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6b95e786-8966-4752-b465-b861ae6b0588")
-		(property "Reference" "U8"
+		(property "Reference" "U302"
 			(at 267.97 153.416 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11991,7 +11991,7 @@
 		(instances
 			(project "projector"
 				(path "/a61b54c9-c67d-4578-8266-2d06212fb89e"
-					(reference "U8")
+					(reference "U302")
 					(unit 1)
 				)
 			)
@@ -12009,7 +12009,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6fbd2680-7419-4d7b-89e0-ed459705b5a7")
-		(property "Reference" "#PWR081"
+		(property "Reference" "#PWR0301"
 			(at 118.11 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -12069,7 +12069,7 @@
 		(instances
 			(project "projector"
 				(path "/a61b54c9-c67d-4578-8266-2d06212fb89e"
-					(reference "#PWR081")
+					(reference "#PWR0301")
 					(unit 1)
 				)
 			)
@@ -12087,7 +12087,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "703d29a4-0af1-4af9-a463-16cdf0c50434")
-		(property "Reference" "C61"
+		(property "Reference" "C315"
 			(at 238.76 64.7699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12173,7 +12173,7 @@
 		(instances
 			(project "projector"
 				(path "/a61b54c9-c67d-4578-8266-2d06212fb89e"
-					(reference "C61")
+					(reference "C315")
 					(unit 1)
 				)
 			)
@@ -12191,7 +12191,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "762ebc6e-c370-4ca3-988d-8ec0a0eec18e")
-		(property "Reference" "C51"
+		(property "Reference" "C305"
 			(at 153.67 69.85 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12275,7 +12275,7 @@
 		(instances
 			(project "projector"
 				(path "/a61b54c9-c67d-4578-8266-2d06212fb89e"
-					(reference "C51")
+					(reference "C305")
 					(unit 1)
 				)
 			)
@@ -12293,7 +12293,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "774ea46d-2452-4648-9f66-8783627d9303")
-		(property "Reference" "C64"
+		(property "Reference" "C318"
 			(at 259.08 177.8 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12377,7 +12377,7 @@
 		(instances
 			(project "projector"
 				(path "/a61b54c9-c67d-4578-8266-2d06212fb89e"
-					(reference "C64")
+					(reference "C318")
 					(unit 1)
 				)
 			)
@@ -12395,7 +12395,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7f06ad9c-97f2-4983-856c-d26cb90c1707")
-		(property "Reference" "J8"
+		(property "Reference" "J301"
 			(at 129.54 121.92 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12514,7 +12514,7 @@
 		(instances
 			(project "projector"
 				(path "/a61b54c9-c67d-4578-8266-2d06212fb89e"
-					(reference "J8")
+					(reference "J301")
 					(unit 1)
 				)
 			)
@@ -12532,7 +12532,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "82f00b6b-fdc4-4be4-a96f-639e56a48888")
-		(property "Reference" "C58"
+		(property "Reference" "C312"
 			(at 223.52 64.7699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12618,7 +12618,7 @@
 		(instances
 			(project "projector"
 				(path "/a61b54c9-c67d-4578-8266-2d06212fb89e"
-					(reference "C58")
+					(reference "C312")
 					(unit 1)
 				)
 			)
@@ -12636,7 +12636,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8588764e-6f98-4413-8d44-0c23dd61f2ff")
-		(property "Reference" "#PWR0103"
+		(property "Reference" "#PWR0323"
 			(at 284.48 149.86 0)
 			(hide yes)
 			(show_name no)
@@ -12696,7 +12696,7 @@
 		(instances
 			(project "projector"
 				(path "/a61b54c9-c67d-4578-8266-2d06212fb89e"
-					(reference "#PWR0103")
+					(reference "#PWR0323")
 					(unit 1)
 				)
 			)
@@ -12714,7 +12714,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8953fa3f-3411-4882-9e0e-608e19b78f16")
-		(property "Reference" "#PWR0102"
+		(property "Reference" "#PWR0322"
 			(at 269.24 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -12774,7 +12774,7 @@
 		(instances
 			(project "projector"
 				(path "/a61b54c9-c67d-4578-8266-2d06212fb89e"
-					(reference "#PWR0102")
+					(reference "#PWR0322")
 					(unit 1)
 				)
 			)
@@ -12791,7 +12791,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8b4e725a-8e10-4ab9-9247-fbb19a4bae52")
-		(property "Reference" "U10"
+		(property "Reference" "U304"
 			(at 306.832 115.062 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12892,7 +12892,7 @@
 		(instances
 			(project "projector"
 				(path "/a61b54c9-c67d-4578-8266-2d06212fb89e"
-					(reference "U10")
+					(reference "U304")
 					(unit 1)
 				)
 			)
@@ -12910,7 +12910,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8d7bdea6-6e79-4385-9caf-b9240f9573af")
-		(property "Reference" "#PWR0100"
+		(property "Reference" "#PWR0320"
 			(at 265.43 187.96 0)
 			(hide yes)
 			(show_name no)
@@ -12971,7 +12971,7 @@
 		(instances
 			(project "projector"
 				(path "/a61b54c9-c67d-4578-8266-2d06212fb89e"
-					(reference "#PWR0100")
+					(reference "#PWR0320")
 					(unit 1)
 				)
 			)
@@ -12989,7 +12989,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "94a86bc0-4f87-405b-a24a-4a5bf062ce8b")
-		(property "Reference" "#PWR082"
+		(property "Reference" "#PWR0302"
 			(at 118.11 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -13049,7 +13049,7 @@
 		(instances
 			(project "projector"
 				(path "/a61b54c9-c67d-4578-8266-2d06212fb89e"
-					(reference "#PWR082")
+					(reference "#PWR0302")
 					(unit 1)
 				)
 			)
@@ -13066,7 +13066,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "95c40228-8336-4993-8ec5-0f11e62529d7")
-		(property "Reference" "R48"
+		(property "Reference" "R308"
 			(at 293.624 92.456 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13150,7 +13150,7 @@
 		(instances
 			(project "projector"
 				(path "/a61b54c9-c67d-4578-8266-2d06212fb89e"
-					(reference "R48")
+					(reference "R308")
 					(unit 1)
 				)
 			)
@@ -13167,7 +13167,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9e288bb2-8224-4cdb-9da2-529a55c9e1ae")
-		(property "Reference" "R50"
+		(property "Reference" "R310"
 			(at 313.944 156.464 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13251,7 +13251,7 @@
 		(instances
 			(project "projector"
 				(path "/a61b54c9-c67d-4578-8266-2d06212fb89e"
-					(reference "R50")
+					(reference "R310")
 					(unit 1)
 				)
 			)
@@ -13269,7 +13269,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a4c187a0-39bb-4f23-bf8b-3371d9e00a4d")
-		(property "Reference" "#PWR091"
+		(property "Reference" "#PWR0311"
 			(at 191.77 229.87 0)
 			(hide yes)
 			(show_name no)
@@ -13329,7 +13329,7 @@
 		(instances
 			(project "projector"
 				(path "/a61b54c9-c67d-4578-8266-2d06212fb89e"
-					(reference "#PWR091")
+					(reference "#PWR0311")
 					(unit 1)
 				)
 			)
@@ -13347,7 +13347,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a8807d54-013f-4d92-bff3-e5bab2a0d134")
-		(property "Reference" "C52"
+		(property "Reference" "C306"
 			(at 160.02 195.5799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13433,7 +13433,7 @@
 		(instances
 			(project "projector"
 				(path "/a61b54c9-c67d-4578-8266-2d06212fb89e"
-					(reference "C52")
+					(reference "C306")
 					(unit 1)
 				)
 			)
@@ -13451,7 +13451,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aac29856-e7ed-408b-8785-f0a840ef444b")
-		(property "Reference" "#PWR0108"
+		(property "Reference" "#PWR0328"
 			(at 323.85 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -13511,7 +13511,7 @@
 		(instances
 			(project "projector"
 				(path "/a61b54c9-c67d-4578-8266-2d06212fb89e"
-					(reference "#PWR0108")
+					(reference "#PWR0328")
 					(unit 1)
 				)
 			)
@@ -13528,7 +13528,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "aeba9700-b18a-4dce-a606-60fdf34ea2c3")
-		(property "Reference" "C49"
+		(property "Reference" "C303"
 			(at 142.24 104.14 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13614,7 +13614,7 @@
 		(instances
 			(project "projector"
 				(path "/a61b54c9-c67d-4578-8266-2d06212fb89e"
-					(reference "C49")
+					(reference "C303")
 					(unit 1)
 				)
 			)
@@ -13631,7 +13631,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b56f5d9f-6ae9-4efa-82e2-8e1616bd1006")
-		(property "Reference" "R41"
+		(property "Reference" "R301"
 			(at 146.304 173.99 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13715,7 +13715,7 @@
 		(instances
 			(project "projector"
 				(path "/a61b54c9-c67d-4578-8266-2d06212fb89e"
-					(reference "R41")
+					(reference "R301")
 					(unit 1)
 				)
 			)
@@ -13733,7 +13733,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b635dccd-6ace-4baa-854f-5cf14643581e")
-		(property "Reference" "#PWR097"
+		(property "Reference" "#PWR0317"
 			(at 255.27 193.04 0)
 			(hide yes)
 			(show_name no)
@@ -13793,7 +13793,7 @@
 		(instances
 			(project "projector"
 				(path "/a61b54c9-c67d-4578-8266-2d06212fb89e"
-					(reference "#PWR097")
+					(reference "#PWR0317")
 					(unit 1)
 				)
 			)
@@ -13811,7 +13811,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b8158fbe-6660-4aff-84f9-9997ab2b4b51")
-		(property "Reference" "#PWR086"
+		(property "Reference" "#PWR0306"
 			(at 149.86 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -13871,7 +13871,7 @@
 		(instances
 			(project "projector"
 				(path "/a61b54c9-c67d-4578-8266-2d06212fb89e"
-					(reference "#PWR086")
+					(reference "#PWR0306")
 					(unit 1)
 				)
 			)
@@ -13889,7 +13889,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b8578137-0187-47b3-aa45-df1ea7f178fe")
-		(property "Reference" "C57"
+		(property "Reference" "C311"
 			(at 218.44 64.7699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13975,7 +13975,7 @@
 		(instances
 			(project "projector"
 				(path "/a61b54c9-c67d-4578-8266-2d06212fb89e"
-					(reference "C57")
+					(reference "C311")
 					(unit 1)
 				)
 			)
@@ -13993,7 +13993,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b9bb1c6d-1888-412c-ab5d-e3daae66aec0")
-		(property "Reference" "#PWR0104"
+		(property "Reference" "#PWR0324"
 			(at 284.48 186.69 0)
 			(hide yes)
 			(show_name no)
@@ -14053,7 +14053,7 @@
 		(instances
 			(project "projector"
 				(path "/a61b54c9-c67d-4578-8266-2d06212fb89e"
-					(reference "#PWR0104")
+					(reference "#PWR0324")
 					(unit 1)
 				)
 			)
@@ -14071,7 +14071,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c6afb356-8062-4405-acbf-f7d7fe4b10a5")
-		(property "Reference" "C48"
+		(property "Reference" "C302"
 			(at 144.78 191.7699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14157,7 +14157,7 @@
 		(instances
 			(project "projector"
 				(path "/a61b54c9-c67d-4578-8266-2d06212fb89e"
-					(reference "C48")
+					(reference "C302")
 					(unit 1)
 				)
 			)
@@ -14175,7 +14175,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c89c1891-cb79-42a3-a261-4de2cbbc421c")
-		(property "Reference" "C54"
+		(property "Reference" "C308"
 			(at 203.2 64.7699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14261,7 +14261,7 @@
 		(instances
 			(project "projector"
 				(path "/a61b54c9-c67d-4578-8266-2d06212fb89e"
-					(reference "C54")
+					(reference "C308")
 					(unit 1)
 				)
 			)
@@ -14279,7 +14279,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cd897257-5f6a-4ed9-9b6b-f293c58119a9")
-		(property "Reference" "#PWR084"
+		(property "Reference" "#PWR0304"
 			(at 134.62 207.01 0)
 			(hide yes)
 			(show_name no)
@@ -14339,7 +14339,7 @@
 		(instances
 			(project "projector"
 				(path "/a61b54c9-c67d-4578-8266-2d06212fb89e"
-					(reference "#PWR084")
+					(reference "#PWR0304")
 					(unit 1)
 				)
 			)
@@ -14357,7 +14357,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d3e05e30-5442-4809-912c-876ee1accb92")
-		(property "Reference" "R42"
+		(property "Reference" "R302"
 			(at 162.56 76.2 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14441,7 +14441,7 @@
 		(instances
 			(project "projector"
 				(path "/a61b54c9-c67d-4578-8266-2d06212fb89e"
-					(reference "R42")
+					(reference "R302")
 					(unit 1)
 				)
 			)
@@ -14459,7 +14459,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d8ecd27d-ce49-4035-96c5-1b5460c6be8d")
-		(property "Reference" "#PWR0101"
+		(property "Reference" "#PWR0321"
 			(at 265.43 213.36 0)
 			(hide yes)
 			(show_name no)
@@ -14519,7 +14519,7 @@
 		(instances
 			(project "projector"
 				(path "/a61b54c9-c67d-4578-8266-2d06212fb89e"
-					(reference "#PWR0101")
+					(reference "#PWR0321")
 					(unit 1)
 				)
 			)
@@ -14537,7 +14537,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ddc23e4b-9cc7-467b-b28b-29f1416a8fee")
-		(property "Reference" "C56"
+		(property "Reference" "C310"
 			(at 213.36 64.7699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14623,7 +14623,7 @@
 		(instances
 			(project "projector"
 				(path "/a61b54c9-c67d-4578-8266-2d06212fb89e"
-					(reference "C56")
+					(reference "C310")
 					(unit 1)
 				)
 			)
@@ -14641,7 +14641,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e0239632-3907-43b9-8809-a0fcf7640233")
-		(property "Reference" "C53"
+		(property "Reference" "C307"
 			(at 165.1 195.5799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14727,7 +14727,7 @@
 		(instances
 			(project "projector"
 				(path "/a61b54c9-c67d-4578-8266-2d06212fb89e"
-					(reference "C53")
+					(reference "C307")
 					(unit 1)
 				)
 			)
@@ -14744,7 +14744,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "edb4be26-22cb-47c8-a2b5-3a47f21c570a")
-		(property "Reference" "U9"
+		(property "Reference" "U303"
 			(at 267.97 190.246 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14848,7 +14848,7 @@
 		(instances
 			(project "projector"
 				(path "/a61b54c9-c67d-4578-8266-2d06212fb89e"
-					(reference "U9")
+					(reference "U303")
 					(unit 1)
 				)
 			)
@@ -14866,7 +14866,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f1cd6cae-0123-4b20-b27f-d720372c77dd")
-		(property "Reference" "#PWR095"
+		(property "Reference" "#PWR0315"
 			(at 248.92 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -14926,7 +14926,7 @@
 		(instances
 			(project "projector"
 				(path "/a61b54c9-c67d-4578-8266-2d06212fb89e"
-					(reference "#PWR095")
+					(reference "#PWR0315")
 					(unit 1)
 				)
 			)
@@ -14944,7 +14944,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f22b692b-247a-468e-a6d0-8fcfdb98632d")
-		(property "Reference" "C60"
+		(property "Reference" "C314"
 			(at 233.68 64.7699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15030,7 +15030,7 @@
 		(instances
 			(project "projector"
 				(path "/a61b54c9-c67d-4578-8266-2d06212fb89e"
-					(reference "C60")
+					(reference "C314")
 					(unit 1)
 				)
 			)
@@ -15048,7 +15048,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f451729a-238d-4372-8923-5065340a0d13")
-		(property "Reference" "#PWR088"
+		(property "Reference" "#PWR0308"
 			(at 154.94 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -15108,7 +15108,7 @@
 		(instances
 			(project "projector"
 				(path "/a61b54c9-c67d-4578-8266-2d06212fb89e"
-					(reference "#PWR088")
+					(reference "#PWR0308")
 					(unit 1)
 				)
 			)
@@ -15126,7 +15126,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f96398fc-6a37-44bb-8458-e2906d7befa7")
-		(property "Reference" "#PWR092"
+		(property "Reference" "#PWR0312"
 			(at 234.95 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -15186,7 +15186,7 @@
 		(instances
 			(project "projector"
 				(path "/a61b54c9-c67d-4578-8266-2d06212fb89e"
-					(reference "#PWR092")
+					(reference "#PWR0312")
 					(unit 1)
 				)
 			)
@@ -15204,7 +15204,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f9fc8bf4-65ae-47a5-ac41-cd5ba580c497")
-		(property "Reference" "#PWR093"
+		(property "Reference" "#PWR0313"
 			(at 237.49 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -15264,7 +15264,7 @@
 		(instances
 			(project "projector"
 				(path "/a61b54c9-c67d-4578-8266-2d06212fb89e"
-					(reference "#PWR093")
+					(reference "#PWR0313")
 					(unit 1)
 				)
 			)
