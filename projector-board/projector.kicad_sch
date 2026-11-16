@@ -12763,6 +12763,12 @@
 		(uuid "5af22a02-0c62-4986-bab2-d52a8a8ec235")
 	)
 	(junction
+		(at 80.01 209.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5c28921f-5a36-4e9a-808a-569654e42df8")
+	)
+	(junction
 		(at 54.61 67.31)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -13275,6 +13281,16 @@
 			(type default)
 		)
 		(uuid "06e3c82b-9130-43ee-9f34-c38de744a269")
+	)
+	(wire
+		(pts
+			(xy 80.01 205.74) (xy 80.01 209.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07a6a0f3-6084-4c14-b7ea-3b5278075dc8")
 	)
 	(wire
 		(pts
@@ -20292,6 +20308,83 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 80.01 205.74 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "389b0573-aa38-4b59-a740-6f03e13c5c24")
+		(property "Reference" "#PWR0164"
+			(at 80.01 209.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+VCORE"
+			(at 80.01 201.93 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 80.01 205.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 80.01 205.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 80.01 205.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "33f80958-4829-4167-9b3f-cc406140cbff")
+		)
+		(instances
+			(project "projector"
+				(path "/0c7b44f4-2a5d-4ccb-91ae-fa3b66550b5b"
+					(reference "#PWR0164")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Conn_01x08_Pin")
 		(at 124.46 232.41 180)
 		(unit 1)
@@ -20314,7 +20407,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "DNL"
+		(property "Value" "DLPC_TSTPT"
 			(at 125.73 232.4099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30719,7 +30812,7 @@
 				)
 			)
 		)
-		(property "Value" "DNL"
+		(property "Value" "DLPC_JTAG"
 			(at 20.955 220.98 0)
 			(show_name no)
 			(do_not_autoplace no)

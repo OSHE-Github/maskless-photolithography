@@ -12405,7 +12405,7 @@
 				)
 			)
 		)
-		(property "Value" "GRPB052VWVN-RC"
+		(property "Value" "MCU_JTAG"
 			(at 129.54 124.46 0)
 			(show_name no)
 			(do_not_autoplace no)
