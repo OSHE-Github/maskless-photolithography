@@ -74,9 +74,27 @@
           "gap": 0.0,
           "via_gap": 0.0,
           "width": 0.0
+        },
+        {
+          "gap": 0.1016,
+          "via_gap": 0.0,
+          "width": 0.1016
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "starved_thermal|104140000|115570000|53492681-17e3-4b62-864e-31bcd8e6ca6c|938e1114-6c03-48fe-87ec-57c3ec622f4e|In1.Cu",
+          "Manually checked, ok - AK"
+        ],
+        [
+          "starved_thermal|104140000|116840000|53492681-17e3-4b62-864e-31bcd8e6ca6c|a9bf01b5-799f-416d-a149-bdff7f97761d|In1.Cu",
+          "Manually checked, ok - AK"
+        ],
+        [
+          "starved_thermal|104140000|119380000|53492681-17e3-4b62-864e-31bcd8e6ca6c|ac3d775e-1b7d-409f-b84d-31063273c80c|In1.Cu",
+          "Manually checked, ok - AK"
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -561,7 +579,7 @@
       "netlist": "",
       "plot": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "projector.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""

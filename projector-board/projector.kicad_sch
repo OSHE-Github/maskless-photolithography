@@ -12667,12 +12667,6 @@
 		(uuid "37cd9505-5b6c-4712-b682-2a80a99b7dc5")
 	)
 	(junction
-		(at 232.41 49.53)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3adcc5a2-0578-4ab4-a45a-61d53c91d7a4")
-	)
-	(junction
 		(at 73.66 209.55)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -14804,16 +14798,6 @@
 	)
 	(wire
 		(pts
-			(xy 232.41 49.53) (xy 232.41 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "56c624ac-fd69-441f-95df-80e58aa70730")
-	)
-	(wire
-		(pts
 			(xy 391.16 199.39) (xy 397.51 199.39)
 		)
 		(stroke
@@ -15224,16 +15208,6 @@
 	)
 	(wire
 		(pts
-			(xy 232.41 49.53) (xy 276.86 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "75c7b5ea-c8ad-4710-a168-34719a549cf5")
-	)
-	(wire
-		(pts
 			(xy 73.66 190.5) (xy 68.58 190.5)
 		)
 		(stroke
@@ -15274,7 +15248,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 49.53) (xy 232.41 49.53)
+			(xy 220.98 49.53) (xy 276.86 49.53)
 		)
 		(stroke
 			(width 0)
@@ -19732,85 +19706,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 154.94 81.28 0)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "292c5625-ce10-4c27-8d05-1477d8e69498")
-		(property "Reference" "TP103"
-			(at 152.908 82.042 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "SENS2"
-			(at 152.908 84.582 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_2.0x2.0mm"
-			(at 160.02 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 160.02 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 154.94 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "76b2c368-b4e3-424b-9aa5-34bcc1d8fc15")
-		)
-		(instances
-			(project "projector"
-				(path "/0c7b44f4-2a5d-4ccb-91ae-fa3b66550b5b"
-					(reference "TP103")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 341.63 49.53 0)
 		(unit 1)
@@ -22542,84 +22437,6 @@
 			(project "projector"
 				(path "/0c7b44f4-2a5d-4ccb-91ae-fa3b66550b5b"
 					(reference "R113")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 232.41 53.34 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "671da849-5bf2-4a8a-ac83-bf1ff426837b")
-		(property "Reference" "TP106"
-			(at 234.442 54.102 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "+2V5"
-			(at 234.442 56.642 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_2.0x2.0mm"
-			(at 227.33 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 227.33 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 232.41 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "20a7f3f7-5d25-41de-97cd-8749718f15ec")
-		)
-		(instances
-			(project "projector"
-				(path "/0c7b44f4-2a5d-4ccb-91ae-fa3b66550b5b"
-					(reference "TP106")
 					(unit 1)
 				)
 			)
@@ -31166,7 +30983,7 @@
 				)
 			)
 		)
-		(property "Value" "COM"
+		(property "Value" "GND"
 			(at 374.65 139.954 0)
 			(show_name no)
 			(do_not_autoplace no)
