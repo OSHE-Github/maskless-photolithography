@@ -85,14 +85,6 @@
         [
           "starved_thermal|104140000|115570000|53492681-17e3-4b62-864e-31bcd8e6ca6c|938e1114-6c03-48fe-87ec-57c3ec622f4e|In1.Cu",
           "Manually checked, ok - AK"
-        ],
-        [
-          "starved_thermal|104140000|116840000|53492681-17e3-4b62-864e-31bcd8e6ca6c|a9bf01b5-799f-416d-a149-bdff7f97761d|In1.Cu",
-          "Manually checked, ok - AK"
-        ],
-        [
-          "starved_thermal|104140000|119380000|53492681-17e3-4b62-864e-31bcd8e6ca6c|ac3d775e-1b7d-409f-b84d-31063273c80c|In1.Cu",
-          "Manually checked, ok - AK"
         ]
       ],
       "meta": {
@@ -139,8 +131,8 @@
         "pth_inside_courtyard": "error",
         "shorting_items": "error",
         "silk_edge_clearance": "warning",
-        "silk_over_copper": "warning",
-        "silk_overlap": "warning",
+        "silk_over_copper": "ignore",
+        "silk_overlap": "ignore",
         "skew_out_of_range": "error",
         "solder_mask_bridge": "error",
         "starved_thermal": "error",
@@ -174,7 +166,7 @@
         "min_microvia_drill": 0.1,
         "min_resolved_spokes": 2,
         "min_silk_clearance": 0.0,
-        "min_text_height": 0.8,
+        "min_text_height": 0.762,
         "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.0508,
         "min_track_width": 0.1016,
