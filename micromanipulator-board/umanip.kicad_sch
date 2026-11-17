@@ -2454,7 +2454,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector:USB_C_Receptacle_USB2.0_14P"
+		(symbol "Connector:USB_C_Receptacle_USB2.0_16P"
 			(pin_names
 				(offset 1.016)
 			)
@@ -2473,7 +2473,7 @@
 					)
 				)
 			)
-			(property "Value" "USB_C_Receptacle_USB2.0_14P"
+			(property "Value" "USB_C_Receptacle_USB2.0_16P"
 				(at 0 19.685 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2505,7 +2505,7 @@
 					)
 				)
 			)
-			(property "Description" "USB 2.0-only 14P Type-C Receptacle connector"
+			(property "Description" "USB 2.0-only 16P Type-C Receptacle connector"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2538,7 +2538,7 @@
 					)
 				)
 			)
-			(symbol "USB_C_Receptacle_USB2.0_14P_0_0"
+			(symbol "USB_C_Receptacle_USB2.0_16P_0_0"
 				(rectangle
 					(start -0.254 -17.78)
 					(end 0.254 -16.764)
@@ -2627,8 +2627,30 @@
 						(type none)
 					)
 				)
+				(rectangle
+					(start 10.16 -12.446)
+					(end 9.144 -12.954)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 10.16 -14.986)
+					(end 9.144 -15.494)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 			)
-			(symbol "USB_C_Receptacle_USB2.0_14P_0_1"
+			(symbol "USB_C_Receptacle_USB2.0_16P_0_1"
 				(rectangle
 					(start -10.16 17.78)
 					(end 10.16 -17.78)
@@ -2829,7 +2851,7 @@
 					)
 				)
 			)
-			(symbol "USB_C_Receptacle_USB2.0_14P_1_1"
+			(symbol "USB_C_Receptacle_USB2.0_16P_1_1"
 				(pin passive line
 					(at 0 -22.86 90)
 					(length 5.08)
@@ -2913,6 +2935,24 @@
 						)
 					)
 					(number "A7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 -12.7 180)
+					(length 5.08)
+					(name "SBU1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3043,6 +3083,24 @@
 						)
 					)
 					(number "B7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 -15.24 180)
+					(length 5.08)
+					(name "SBU2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -7931,12 +7989,6 @@
 		(uuid "b3108b7c-928e-4b73-bc77-3dac210a82d4")
 	)
 	(junction
-		(at 35.56 41.91)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b5064582-6837-41c8-9acf-83708c94483b")
-	)
-	(junction
 		(at 67.31 105.41)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7959,6 +8011,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c2505c1e-dfb8-4f72-be89-592ee27b6754")
+	)
+	(junction
+		(at 165.1 140.97)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d217710b-431b-45fd-a859-d1525a9c5a39")
 	)
 	(junction
 		(at 54.61 233.68)
@@ -8087,6 +8145,14 @@
 	(no_connect
 		(at 262.89 153.67)
 		(uuid "972fa1ac-52c6-4190-8c54-79d13b4e889d")
+	)
+	(no_connect
+		(at 49.53 189.23)
+		(uuid "9923735d-0d25-43a1-b2cc-cec2c965f4ed")
+	)
+	(no_connect
+		(at 49.53 186.69)
+		(uuid "a16eabe8-2c30-4ec0-b391-c774748da2f1")
 	)
 	(no_connect
 		(at 186.69 184.15)
@@ -8316,6 +8382,16 @@
 	)
 	(wire
 		(pts
+			(xy 30.48 41.91) (xy 44.45 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "188a8daa-b16e-4208-926a-c0d2d850758d")
+	)
+	(wire
+		(pts
 			(xy 273.05 186.69) (xy 262.89 186.69)
 		)
 		(stroke
@@ -8373,16 +8449,6 @@
 			(type default)
 		)
 		(uuid "1d8978fa-c84a-439e-8e7e-51ceda40c283")
-	)
-	(wire
-		(pts
-			(xy 30.48 41.91) (xy 35.56 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1dde95c9-1238-4f4d-a6c5-db0a915094b5")
 	)
 	(wire
 		(pts
@@ -8846,6 +8912,16 @@
 	)
 	(wire
 		(pts
+			(xy 165.1 135.89) (xy 165.1 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "450ccf10-62eb-4ef1-98d3-5ad786ded2ed")
+	)
+	(wire
+		(pts
 			(xy 49.53 163.83) (xy 54.61 163.83)
 		)
 		(stroke
@@ -8853,6 +8929,16 @@
 			(type default)
 		)
 		(uuid "46cd496c-854b-4910-ac2e-57916d4867d4")
+	)
+	(wire
+		(pts
+			(xy 165.1 140.97) (xy 186.69 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48397e9f-ee6d-417b-8306-6672fc3e1123")
 	)
 	(wire
 		(pts
@@ -8943,6 +9029,16 @@
 			(type default)
 		)
 		(uuid "51cf0914-0c2a-4236-932d-456081e59b85")
+	)
+	(wire
+		(pts
+			(xy 35.56 25.4) (xy 35.56 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5349015a-e5b0-4288-9c29-68776d96a1f5")
 	)
 	(wire
 		(pts
@@ -9473,6 +9569,16 @@
 			(type default)
 		)
 		(uuid "83e33534-430a-439a-b80d-05d56cb266b3")
+	)
+	(wire
+		(pts
+			(xy 29.21 233.68) (xy 29.21 238.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "841aa39e-be74-4f2a-b8c8-4eea1e2029d8")
 	)
 	(wire
 		(pts
@@ -10186,16 +10292,6 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 41.91) (xy 44.45 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bd5002cb-124e-4cbb-8bc4-3a51d7146c23")
-	)
-	(wire
-		(pts
 			(xy 50.8 171.45) (xy 50.8 173.99)
 		)
 		(stroke
@@ -10506,16 +10602,6 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 238.76) (xy 29.21 238.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d62c1c07-af0f-4c87-9b36-8cca54feb2c3")
-	)
-	(wire
-		(pts
 			(xy 273.05 207.01) (xy 262.89 207.01)
 		)
 		(stroke
@@ -10816,23 +10902,13 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 140.97) (xy 186.69 140.97)
+			(xy 156.21 140.97) (xy 165.1 140.97)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "f8c7efc0-20f1-4762-803c-4c6e3f837399")
-	)
-	(wire
-		(pts
-			(xy 35.56 26.67) (xy 35.56 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f9784f03-8e4d-41d8-ad9e-ef706f0e1a2e")
 	)
 	(wire
 		(pts
@@ -13561,7 +13637,7 @@
 		(uuid "b60f4464-afb4-483b-a438-c79282438a32")
 	)
 	(label "NRST"
-		(at 165.1 140.97 180)
+		(at 165.1 135.89 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13731,7 +13807,7 @@
 		(uuid "f3829c0b-c7f3-4324-b036-4adff5aa3599")
 	)
 	(label "USB_VBUS"
-		(at 27.94 238.76 180)
+		(at 29.21 233.68 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13799,125 +13875,6 @@
 			(justify right bottom)
 		)
 		(uuid "fd05acdd-4ad2-4e1d-b484-b1e5aaa05209")
-	)
-	(symbol
-		(lib_id "Connector:USB_C_Receptacle_USB2.0_14P")
-		(at 34.29 173.99 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "01106524-981b-43e5-9482-d72541868178")
-		(property "Reference" "J2"
-			(at 34.29 151.13 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "USB_C_Receptacle_USB2.0_14P"
-			(at 34.29 153.67 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 38.1 173.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip"
-			(at 38.1 173.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "USB 2.0-only 14P Type-C Receptacle connector"
-			(at 34.29 173.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "A6"
-			(uuid "faf67ceb-2853-433f-b1a6-a179622cb69f")
-		)
-		(pin "A12"
-			(uuid "b093aaa2-707e-47ed-9287-99fbe12ca9a4")
-		)
-		(pin "B12"
-			(uuid "b25cb0e4-8b2e-4aa4-a19b-6c5c340b4a23")
-		)
-		(pin "B6"
-			(uuid "be2fb972-3b81-453e-a789-d662481c09a9")
-		)
-		(pin "A1"
-			(uuid "764a30ba-62db-40b2-8c80-64a088c6e6b0")
-		)
-		(pin "A4"
-			(uuid "0af2d85b-afc3-44b4-b236-c76cab20264a")
-		)
-		(pin "A5"
-			(uuid "5c2a801d-06a1-4cf8-bd4b-d7cd3686a6b4")
-		)
-		(pin "B1"
-			(uuid "5ea17ad9-46a4-4cc3-a349-ed5d6a67325f")
-		)
-		(pin "A7"
-			(uuid "0a878ed7-9325-4980-9bd7-291571234862")
-		)
-		(pin "B4"
-			(uuid "6013e0af-93cc-4121-b85b-1e9d80f97828")
-		)
-		(pin "A9"
-			(uuid "c5ec0405-be6d-4e72-a2b0-f64000bd0e1a")
-		)
-		(pin "B5"
-			(uuid "8aee50d6-1e4b-4d6a-bfb4-48e613000f0c")
-		)
-		(pin "B7"
-			(uuid "781ae3fe-fa4e-4e46-8f6e-21c5914a35a8")
-		)
-		(pin "B9"
-			(uuid "7a6dc0b0-b705-4e86-a68e-bec9b2aab515")
-		)
-		(pin "SH"
-			(uuid "a23b2257-eeab-45f5-997c-ade131b8d94a")
-		)
-		(instances
-			(project "umanip"
-				(path "/185fb668-0f25-4c94-abe9-351864c4a372"
-					(reference "J2")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "Device:R")
@@ -14108,7 +14065,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
 			(at 336.55 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -14339,7 +14296,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "litho:BIGTREETECH__TMC2209_17.2x20.3mm"
 			(at 361.315 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -15464,7 +15421,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 170.18 191.77 0)
 			(hide yes)
 			(show_name no)
@@ -15668,7 +15625,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 29.21 238.76 0)
+		(at 29.21 238.76 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15678,7 +15635,7 @@
 		(dnp no)
 		(uuid "14250f27-b4f8-411f-8aab-ba08ba464852")
 		(property "Reference" "TP1"
-			(at 27.178 231.648 0)
+			(at 31.242 245.872 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15689,7 +15646,7 @@
 			)
 		)
 		(property "Value" "VBUS"
-			(at 26.67 233.68 0)
+			(at 31.75 243.84 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15699,8 +15656,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 34.29 238.76 0)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+			(at 24.13 238.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15711,7 +15668,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 34.29 238.76 0)
+			(at 24.13 238.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15777,7 +15734,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43650-0415_1x04_P3.00mm_Vertical"
 			(at 402.59 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -15864,7 +15821,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
 			(at 44.45 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -16019,7 +15976,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm"
 			(at 45.4152 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -16109,7 +16066,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Vertical"
+		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43045-0812_2x04_P3.00mm_Vertical"
 			(at 163.83 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -16939,7 +16896,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm"
 			(at 388.62 122.2248 0)
 			(hide yes)
 			(show_name no)
@@ -16999,6 +16956,131 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:USB_C_Receptacle_USB2.0_16P")
+		(at 34.29 173.99 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "32cbe565-6e73-483d-8124-2950c3855ed4")
+		(property "Reference" "J11"
+			(at 34.29 151.13 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "USB_C_Receptacle_USB2.0_16P"
+			(at 34.29 153.67 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "litho-part-lib:USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal"
+			(at 38.1 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip"
+			(at 38.1 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "USB 2.0-only 16P Type-C Receptacle connector"
+			(at 34.29 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "A7"
+			(uuid "03d65e6f-4b0a-4843-a12a-bf50670a727d")
+		)
+		(pin "A6"
+			(uuid "cf47cfbc-3df8-4701-bc4a-b7e07ffcd4e8")
+		)
+		(pin "A5"
+			(uuid "059a0619-1f56-4392-9b79-d380d26c72da")
+		)
+		(pin "A12"
+			(uuid "64a2b34e-5059-4121-8442-cdb169c0097f")
+		)
+		(pin "A1"
+			(uuid "a0a6ebad-49ed-4078-8380-8b01737dcc5f")
+		)
+		(pin "A4"
+			(uuid "eb4f36b4-667b-4bfc-8519-e4748102af33")
+		)
+		(pin "A8"
+			(uuid "e234fe6a-9a1c-4162-8524-9662fee5735f")
+		)
+		(pin "A9"
+			(uuid "50c36962-6903-4f72-b2c0-1fbc4d3ed801")
+		)
+		(pin "B1"
+			(uuid "cc410303-18c2-44be-81e7-55dd1ec69ec1")
+		)
+		(pin "B4"
+			(uuid "8b1f5ba2-9d69-4e13-964e-225aaa4c3daf")
+		)
+		(pin "B9"
+			(uuid "9b289b48-9820-48d9-bf54-7ee822a5e479")
+		)
+		(pin "B5"
+			(uuid "35a8e1ee-aaa9-4a69-8949-e9533022cf97")
+		)
+		(pin "B6"
+			(uuid "ee9acc3c-e459-4555-bfff-6d262c123edd")
+		)
+		(pin "B12"
+			(uuid "db290ebe-4723-4614-9ae3-54004d4006ed")
+		)
+		(pin "B8"
+			(uuid "81260510-982e-4461-a9d3-4c85a0a0429c")
+		)
+		(pin "SH"
+			(uuid "7f10c1a7-e16b-48a8-9e58-9ca4ffacbf5f")
+		)
+		(pin "B7"
+			(uuid "cb511944-69be-4a19-b758-6df37e5cb8d6")
+		)
+		(instances
+			(project "umanip"
+				(path "/185fb668-0f25-4c94-abe9-351864c4a372"
+					(reference "J11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Polarized")
 		(at 384.81 171.45 90)
 		(unit 1)
@@ -17031,7 +17113,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm"
 			(at 388.62 170.4848 0)
 			(hide yes)
 			(show_name no)
@@ -17200,7 +17282,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm"
 			(at 388.62 25.7048 0)
 			(hide yes)
 			(show_name no)
@@ -17448,7 +17530,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
 			(at 163.83 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -17994,7 +18076,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43650-0415_1x04_P3.00mm_Vertical"
 			(at 402.59 184.15 0)
 			(hide yes)
 			(show_name no)
@@ -18159,7 +18241,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
 			(at 54.61 228.6 0)
 			(hide yes)
 			(show_name no)
@@ -18515,7 +18597,7 @@
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 35.56 26.67 0)
+		(at 35.56 25.4 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -18525,7 +18607,7 @@
 		(dnp no)
 		(uuid "545ed09c-f52d-4f7f-b518-7b3f5d421fa0")
 		(property "Reference" "#PWR03"
-			(at 35.56 30.48 0)
+			(at 35.56 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18536,7 +18618,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 35.56 23.114 0)
+			(at 35.56 21.844 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18546,7 +18628,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 35.56 26.67 0)
+			(at 35.56 25.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18557,7 +18639,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 35.56 26.67 0)
+			(at 35.56 25.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18568,7 +18650,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 35.56 26.67 0)
+			(at 35.56 25.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18961,7 +19043,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
 			(at 336.55 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -19803,7 +19885,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "litho:BIGTREETECH__TMC2209_17.2x20.3mm"
 			(at 361.315 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -19928,7 +20010,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43650-0315_1x03_P3.00mm_Vertical"
 			(at 167.64 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -20092,7 +20174,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
 			(at 161.29 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -20170,7 +20252,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
 			(at 144.78 163.83 0)
 			(hide yes)
 			(show_name no)
@@ -20248,7 +20330,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
 			(at 163.83 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -20560,7 +20642,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
 			(at 336.55 190.5 0)
 			(hide yes)
 			(show_name no)
@@ -21299,7 +21381,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "litho:BIGTREETECH__TMC2209_17.2x20.3mm"
 			(at 361.315 200.66 0)
 			(hide yes)
 			(show_name no)
@@ -21516,7 +21598,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
 			(at 54.61 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -21592,7 +21674,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43650-0515_1x05_P3.00mm_Vertical"
 			(at 151.13 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -21759,7 +21841,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43650-0415_1x04_P3.00mm_Vertical"
 			(at 402.59 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -21846,7 +21928,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
 			(at 35.56 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -22823,7 +22905,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43650-0415_1x04_P3.00mm_Vertical"
 			(at 402.59 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -23146,7 +23228,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
 			(at 336.55 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -23224,7 +23306,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
 			(at 54.61 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -23300,7 +23382,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "litho:BIGTREETECH__TMC2209_17.2x20.3mm"
 			(at 361.315 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -24142,7 +24224,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm"
 			(at 388.62 73.9648 0)
 			(hide yes)
 			(show_name no)
@@ -24571,7 +24653,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
 			(at 163.83 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -24810,7 +24892,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm"
 			(at 55.5752 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -24901,7 +24983,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "litho:CONN_55660001-SD_04_MOL"
 			(at 22.86 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -25612,98 +25694,6 @@
 			(project "umanip"
 				(path "/185fb668-0f25-4c94-abe9-351864c4a372"
 					(reference "#PWR029")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Polarized")
-		(at 35.56 38.1 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "f78c8405-b801-45ce-8006-33c27e96f1d9")
-		(property "Reference" "C1"
-			(at 36.576 33.528 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "47uF"
-			(at 36.576 36.068 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 36.5252 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 35.56 38.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Polarized capacitor"
-			(at 35.56 38.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Digikey" "732-8789-1-ND"
-			(at 35.56 38.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "8bb25198-76b3-4461-989b-8da037ad99ec")
-		)
-		(pin "2"
-			(uuid "18bc0c22-4226-4bdc-aeaa-9c98a32897c2")
-		)
-		(instances
-			(project "umanip"
-				(path "/185fb668-0f25-4c94-abe9-351864c4a372"
-					(reference "C1")
 					(unit 1)
 				)
 			)
