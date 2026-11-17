@@ -21726,14 +21726,15 @@
 				)
 			)
 		)
-		(property "Value" "COM"
-			(at 391.16 207.01 0)
+		(property "Value" "GND"
+			(at 393.7 203.1999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
