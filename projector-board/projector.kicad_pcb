@@ -46064,7 +46064,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "Thickness: Standard (1.56mm)\n\nUSE ENIG PLATING\n\nVia Covering: Epoxy Filled & Capped\nVia Plating Method: Horizontal Electroless Copper Plating\nHoles: 0.2mm/0.35mm\nStackup: JLC04161H-3313 (may not be required but no extra charge to specify)\n\nTODO: Length Matching"
+	(gr_text "Thickness: Standard (1.56mm)\n\nUSE ENIG PLATING\n\nVia Covering: Epoxy Filled & Capped\nVia Plating Method: Horizontal Electroless Copper Plating\nHoles: 0.2mm/0.35mm\nStackup: JLC04161H-3313 (may not be required but no extra charge to specify)"
 		(at 196.1896 46.228 0)
 		(layer "Cmts.User")
 		(uuid "c101e8c3-823d-44a6-bbd3-3f11a2930375")
